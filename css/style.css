@@ -1720,5 +1720,6 @@ ul.employment {
   position: relative;
   list-style: circle outside none;
   height: 48px;
+  max-width: 300px;
   display: inline-block;
 }
