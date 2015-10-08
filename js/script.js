@@ -1,9 +1,3 @@
-/*-----------------------------------------------------------------------------------
-/*
-/* Script for Resume
-/*
------------------------------------------------------------------------------------*/
-
 /*----------------------------------------------------*/
 /* Preloader
 ------------------------------------------------------ */
@@ -24,7 +18,7 @@ jQuery(document).ready(function($) {
   ------------------------------------------------------ */
 
   $("html").niceScroll({
-    cursorcolor: "#11abb0", // Set cursor color
+    cursorcolor: "#000000", // Set cursor color
     cursorwidth: "8", // Sety cursor width
     cursorborder: "" // Set cursor border color, default left none
   });
@@ -78,33 +72,6 @@ jQuery(document).ready(function($) {
     var scrollPosition = $(window).scrollTop();
     $('.banner').css('margin-top', (0 - (scrollPosition * .8)) + 'px');
   }
-
-  /*----------------------------------------------------*/
-  /* Highlight the current section in the navigation bar
-  ------------------------------------------------------*/
-
-  var sections = $("section");
-  var navigation_links = $("#m-nav a");
-
-  sections.waypoint({
-
-    handler: function(event, direction) {
-
-      var active_section;
-
-      active_section = $(this);
-      if (direction === "up") active_section = active_section.prev();
-
-      var active_link = $('#m-nav a[href="#' + active_section.attr("id") + '"]');
-
-      navigation_links.parent().removeClass("current");
-      active_link.parent().addClass("current");
-
-    },
-    offset: '35%'
-
-  });
-
 
   /*----------------------------------------------------*/
   /*  Make sure that #header-background-image height is

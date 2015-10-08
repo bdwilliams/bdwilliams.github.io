@@ -49,18 +49,6 @@ body {
   -o-transition: all .3s;
 }
 
-.section-title:after {
-  background: none repeat scroll 0 0 #fff;
-  bottom: -15px;
-  color: #333;
-  content: "\f0a7";
-  left: 45%;
-  line-height: 1px;
-  padding: 15px 5px;
-  position: absolute;
-  font-family: "FontAwesome";
-}
-
 
 /* ------------------------------------------------------------------ */
 
@@ -620,12 +608,6 @@ ul#nav li a:hover {
   color: #666;
 }
 
-#resume .section-title:after {
-  background: #fff;
-  color: #666;
-  content: "\f02d";
-}
-
 #resume .header-col {
   padding-top: 9px;
 }
@@ -1037,12 +1019,6 @@ awards {
   border-color: #ddd;
 }
 
-#portfolio .section-title:after {
-  background: transparent;
-  content: "\f0b1";
-  color: #fff;
-}
-
 .btn-close {
   background: #E95811;
 }
@@ -1337,12 +1313,6 @@ awards {
   display: block;
 }
 
-#testimonials .section-title:after {
-  background: #F1F1F1;
-  content: "\f0e6";
-  color: #95A3A3;
-}
-
 #testimonials .header-col {
   padding-top: 9px;
 }
@@ -1424,12 +1394,6 @@ awards {
 
 #contact h1:hover {
   border-color: #fff;
-}
-
-#contact .section-title:after {
-  background: #191919;
-  content: "\f003";
-  color: #888;
 }
 
 #contact h4 {
@@ -1720,6 +1684,10 @@ ul.employment {
   position: relative;
   list-style: circle outside none;
   height: 48px;
-  max-width: 300px;
+  max-width: 370px;
   display: inline-block;
+}
+
+.text-center {
+  text-align: center;
 }
