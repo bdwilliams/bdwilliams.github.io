@@ -1,315 +1,417 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
-  <!--- Basic Page Needs
-      ================================================== -->
   <meta charset="utf-8">
-  <title>Brian Williams</title>
-  <meta name="description" content="Brian Williams for Sallisaw School Board">
+  <title>Brian Williams - Resume</title>
+  <meta name="description" content="Brian Williams - Full Stack Developer, Database Analyst, DevOps Engineer, Entrepreneur, and Cloud Evangelist">
   <meta name="author" content="Brian Williams - brian@mxapps.com">
   <meta property="og:title" content="Brian Williams" />
-  <meta property="og:image" content="http://www.iambrianwilliams.com/images/avatar.jpg" />
+  <meta property="og:image" content="https://www.iambrianwilliams.com/images/avatar.jpg" />
   <meta property="og:site_name" content="Brian Williams" />
-  <!-- Mobile Specific Metas
-      ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- CSS
-        ================================================== -->
-  <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <!-- Script
-      ================================================== -->
-  <script src="js/modernizr.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68550549-1"></script>
   <script>
-  (function(i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-  ga('create', 'UA-68550549-1', 'auto');
-  ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-68550549-1');
   </script>
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 
-<body>
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="loader"></div>
-  </div>
-  <!--preloader end-->
-  <!-- Header
-      ================================================== -->
-  <header id="home">
-    <nav id="m-nav">
-      <a class="mobile-btn" href="index.html#m-nav" title="Show navigation">Show navigation</a>
-      <a class="mobile-btn" href="index.html#" title="Hide navigation">Hide navigation</a>
-      <ul id="nav" class="nav">
-        <li class="current"><a class="smoothscroll" href="index.html#home">Home</a></li>
-        <li><a class="smoothscroll" href="index.html#about">About Me</a></li>
-        <li><a class="smoothscroll" href="index.html#resume">Resume</a></li>
-        <li><a class="smoothscroll" href="index.html#portfolio">Portfolio</a></li>
-        <li><a class="smoothscroll" href="index.html#contact">Contact</a></li>
-      </ul>
-      <!-- end #nav -->
-    </nav>
-    <!-- end #nav-wrap -->
-    <div class="row banner">
-      <div class="banner-text">
-        <h1 class="responsive-headline wow zoomIn">I'm <span>Brian Williams</span></h1>
-        <h3 class="wow">I'm a <span>FATHER</span>, a <span>HUSBAND</span>, and <span>TECHNOLOGIST</span>.</h3>
-        <hr />
-      </div>
-    </div>
-    <p class="scrolldown">
-      <a class="smoothscroll" href="index.html#about"><i class="fa fa-angle-double-down"></i></a>
-    </p>
-    <div class="header-overlay"></div>
-    <!-- Social Section
-      ================================================== -->
-    <div id="social">
-      <div class="row social-container">
-        <ul class="social">
-          <li><a href="https://www.facebook.com/Briandeewilliams" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="http://twitter.com/bdwilliams" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="http://www.linkedin.com/in/briandeewilliams/en" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="http://www.github.com/bdwilliams" target="_blank"><i class="fa fa-github"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- Social End -->
-  </header>
-  <!-- Header End -->
-  <!-- About Section
-      ================================================== -->
-  <section id="about">
-    <div class="row bio-container">
-      <div class="twelve columns bio-inner">
-        <div class="five columns bio-left">
-          <div class="pp-container">
-            <img class="profile-pic wow zoomIn" src="images/avatar.jpg" alt="" />
-            <h2>Brian Williams</h2>
-          </div>
-          <!-- Profile Picture -->
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <div class="container mx-auto px-4 py-12 md:py-16">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <!-- Profile Image -->
+        <div class="flex-shrink-0">
+          <img src="images/avatar.jpg" alt="Brian Williams" class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover">
         </div>
-        <div class="seven columns main-col wow">
-          <div class="arrow-left"></div>
-          <p>
-            I am a full stack developer, database analyst, devops engineer, entrepreneur, and cloud evangelist. I have a reputation for high-energy work ethic, excellent analytical and problem solving skills, and strong customer relations. I have a very broad range of technical skills and have worked in a plethora of industries in executive and managerial roles.
+        
+        <!-- Header Content -->
+        <div class="flex-1 text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-bold mb-2">Brian Williams</h1>
+          <p class="text-xl md:text-2xl text-gray-300 mb-4">Full Stack Developer • Database Analyst • DevOps Engineer • Entrepreneur</p>
+          <p class="text-gray-400 mb-6 max-w-2xl">
+            I am a full stack developer, database analyst, devops engineer, entrepreneur, and cloud evangelist. 
+            I have a reputation for high-energy work ethic, excellent analytical and problem solving skills, 
+            and strong customer relations.
           </p>
+          
+          <!-- Social Links -->
+          <div class="flex flex-wrap justify-center md:justify-start gap-4">
+            <a href="https://www.linkedin.com/in/briandeewilliams/en" target="_blank" 
+               class="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.github.com/bdwilliams" target="_blank" 
+               class="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://twitter.com/bdwilliams" target="_blank" 
+               class="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors">
+              <i class="fab fa-twitter"></i>
+              <span>Twitter</span>
+            </a>
+            <a href="https://registry.jsonresume.org/bdwilliams" target="_blank" 
+               class="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors">
+              <i class="fas fa-file-alt"></i>
+              <span>View Resume</span>
+            </a>
+          </div>
         </div>
-        <!-- end .main-col -->
       </div>
     </div>
-  </section>
-  <!-- About Section End-->
-  <!-- Resume Section
-      ================================================== -->
-  <section id="resume">
-    <h1 class="section-title wow"><a href="http://registry.jsonresume.org/bdwilliams" target="_blank">Resume</a></h1>
-    <!-- Work
-            ========================================= -->
-    <div class="row work">
-      <div class="three columns header-col">
-        <h2><span>Employment</span></h2>
-      </div>
-      <div class="nine columns main-col">
-        <div class="work-timeline">
-          <ul class="timeline">
-            <li class="timeline-event">
-              <label class="timeline-event-icon"></label>
-              <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">March 2017 - current</p>
-                <h3>Data Exchange, Inc. (TPV.com)</h3>
-                <h4>Chief Technology Officer</h4>
-                <div><i class="fa fa-star"></i> Managed a development team of 6-8 developers to transition from a legacy (Fox Pro) application to a new set of applications for call center, client, and staff interaction.</div>
-                <div><i class="fa fa-star"></i> Acted as project manager for both internal and external tickets; including roadmap items.</div>
-                <div><i class="fa fa-star"></i> Developed several new revenue generating paths with EZTPV (customer data collection from a sales agents point of view), Digital Submission (customer data collection from their own device), and IVR (customer voice print).</div>
-                <div><i class="fa fa-star"></i> Architected staging and production infractructures on Amazon Web Services (AWS) using Elastic Beanstalk and RDS to auto-scale based upon demand.</div>
-                <div><i class="fa fa-star"></i> Designed the release management process for all applications using Continuous Integration practices.</div>
-                <div><i class="fa fa-star"></i> Developed REST APIs for client rates and data submissions.</div>
-                <div><i class="fa fa-star"></i> Maintained legacy platforms co-location hardware and maintenance.</div>
-              </div>
-              <br class="clearfix" />
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8 md:py-12">
+    <!-- Work Experience -->
+    <section class="mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-gray-300">Work Experience</h2>
+      
+      <div class="space-y-8">
+        <!-- Job 1 - Most Recent -->
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">VP of Engineering</h3>
+              <h4 class="text-xl text-gray-700">Locally.com</h4>
+            </div>
+            <span class="text-gray-600 font-medium mt-2 md:mt-0">January 2022 - Present</span>
+          </div>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Building and mentoring high-performing engineering teams while fostering a culture of innovation and technical excellence.</span>
             </li>
-            <li class="timeline-event">
-              <label class="timeline-event-icon"></label>
-              <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">November 2016 - February 2017</p>
-                <h3>Quest Software Inc.</h3>
-                <h4>Software Systems Principal Engineer</h4>
-                <div><i class="fa fa-star"></i> Developed a command line utility (Golang) that wraps up the process of building, packaging, testing, and deploying your application (Development, Staging, or Production) in a common interface and using a standardized configuration process.</div>
-                <div><i class="fa fa-star"></i> Created and maintained launch (Docker Swarm & Hashicorp Nomad), registry (Hashicorp Consul), & runtime (Vagrant box & Microsoft Azure) plugins to extend the functionality of the command line utility</div>
-                <div><i class="fa fa-star"></i> Evolved the command line utility by introducing a User Interface (Angular2) that interacted with the existing command line utility through a REST API.</div>
-              </div>
-              <br class="clearfix" />
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Overseeing architecture decisions and technical strategy for multi-platform applications serving millions of users.</span>
             </li>
-            <li class="timeline-event">
-              <label class="timeline-event-icon"></label>
-              <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">May 2013 - November 2016</p>
-                <h3>Dell Inc.</h3>
-                <h4>Software Systems Principal Engineer</h4>
-                <div><i class="fa fa-star"></i> Created a patent pending Appliance to manage configuration, installation, upgrades, and state of the DCM software across multiple Docker containers</div>
-                <div><i class="fa fa-star"></i> Designed Business Intelligences tools (Golang - backend/api, AngularJS - frontend, MySQL, & BoltDB) that perform trending, anomaly detection, and introspection.</div>
-                <div><i class="fa fa-star"></i> Performed data mining and analysis on large scale MySQL and Riak clusters (100 million+ records) and log files located in customer environments. </div>
-                <div><i class="fa fa-star"></i> Assisted with high-level software integrations on a multitude of public and private clouds and platforms such as Amazon Web Services, Rackspace, Joyent, Terremark, OpSource, Google Cloud Engine, VMWare, Eucalyptus, CloudStack, and OpenStack.</div>
-                <div><i class="fa fa-star"></i> Deployment and troubleshooting of Dell Cloud Manager Software (Java Based) using DevOps techniques and log analysis. Aided the customer support and engineering teams in query building (SQL), schema changes, and proper indexing for Dell Cloud Manager. </div>
-                <div><i class="fa fa-star"></i> Maintainer of the Mixcoatl Python library (<a href="http://mixcoatl.net" target="_blank">http://mixcoatl.net</a>) for interacting with the Dell Cloud Manager API.</div>
-                <div><i class="fa fa-star"></i> Developed a fully-automated handsfree utility used to fully configure Dell Cloud Manager on a single server + post setup operations without human interaction.</div>
-                <div><i class="fa fa-star"></i> Contributor to the Dell Cloud Manager installer (Chef based) for the simple installation of Dell Cloud Manager across various OS distributions.</div>
-              </div>
-              <br class="clearfix" />
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Driving engineering excellence through modern development practices, code quality standards, and continuous improvement initiatives.</span>
             </li>
-            <li class="timeline-event">
-              <label class="timeline-event-icon"></label>
-              <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">November 2011 - May 2013</p>
-                <h3>Enstratius Inc.</h3>
-                <h4>Sr. Cloud Systems Engineer</h4>
-                <div><i class="fa fa-star"></i> Company was purchased by Dell Inc. in May 2013</div>
-                <div><i class="fa fa-star"></i> First hired employee after Series A round of funding.</div>
-                <div><i class="fa fa-star"></i> Provided customer training on cloud computing and the Enstratius software.</div>
-                <div><i class="fa fa-star"></i> Pre-sales engagements for product education and Proof-of-Concept advocacy.</div>
-                <div><i class="fa fa-star"></i> Handled support tickets and provided support metrics to the CEO.</div>
-                <div><i class="fa fa-star"></i> Generated custom reports using raw SQL (MySQL database) for customers.</div>
-                <div><i class="fa fa-star"></i> Engaged in paid Cloud Consultant for many Enterprise level companies.</div>
-                <div><i class="fa fa-star"></i> Auto-provisioning of servers via DevOps (Chef) or custom developed scripts (Bash, Python, Ruby, PHP, Perl, etc.)</div>
-                <div><i class="fa fa-star"></i> High familiarity with major clouds (AWS, Rackspace, GoGrid, Azure, Terramark, etc.)</div>
-              </div>
-              <br class="clearfix" />
-            </li>
-            <li class="timeline-event">
-              <label class="timeline-event-icon"></label>
-              <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">August 2010 - November 2011</p>
-                <h3>Crazygood LLC</h3>
-                <h4>Chief Technology Officer</h4>
-                <div><i class="fa fa-star"></i> Acted as the Technical Co-Founder in this bootstrapped startup.</div>
-                <div><i class="fa fa-star"></i> Created marketing and vision plans that allowed us to reach 11,000 paying subscribers in the first year.</div>
-                <div><i class="fa fa-star"></i> Lead development of the application (LAMP, PHP, MySQL, and jQuery).</div>
-                <div><i class="fa fa-star"></i> Developed a database intensive compensation utility that automated payout to Paypal and ACH (NACHA).</div>
-                <div><i class="fa fa-star"></i> Heavy use of AWS/Rackspace clouds to create a zero downtime solution.</div>
-                <div><i class="fa fa-star"></i> Managed development, outsourcing, and SDLC.</div>
-              </div>
-              <br class="clearfix" />
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Collaborating with product, design, and business stakeholders to align technical roadmap with company objectives.</span>
             </li>
           </ul>
         </div>
-        <!-- Work Timeline End -->
-      </div>
-      <!-- main-col end -->
-    </div>
-    <!-- End Work -->
-    <!-- Awards
-            =============================================== -->
-    <div class="row awards">
-      <div class="three columns header-col">
-        <h2><span>Recognition</span></h2>
-      </div>
-      <div class="nine columns main-col">
-        <div class="award-list">
-          <ul>
-            <li class="wow">
-              <span><i class="fa fa-certificate fa-5x pull-left fa-fw"></i></span>
-              <h3>Challenges of Big Data</h3>
-              <h5>Awarded June 2015</h5>
-              <h4><a href="http://web.mit.edu/" target="_blank">MIT.edu</a></h4>
+
+        <!-- Job 2 -->
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Chief Technology Officer</h3>
+              <h4 class="text-xl text-gray-700">Data Exchange, Inc. (TPV.com)</h4>
+            </div>
+            <span class="text-gray-600 font-medium mt-2 md:mt-0">March 2017 - August 2021</span>
+          </div>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Managed a development team of developers to transition from a legacy (Fox Pro) application to a new set of applications for call center, client, and staff interaction.</span>
             </li>
-            <li class="wow">
-              <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
-              <h3>Michael Dell Champion Award</h3>
-              <h5>Awarded in both 2014 & 2015</h5>
-              <h4><a href="http://dell.com" target="_blank">Dell Inc.</a></h4>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Acted as project manager for both internal and external tickets; including roadmap items.</span>
             </li>
-            <li class="wow">
-              <span><i class="fa fa-graduation-cap fa-5x pull-left fa-fw"></i></span>
-              <h3>Magna Cum Laude</h3>
-              <h5>Awarded May 2005</h5>
-              <h4><a href="http://www.coloradotech.edu" target="_blank">Colorado Technical University</a></h4>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Developed several new revenue generating paths with EZTPV (customer data collection from a sales agents point of view), Digital Submission (customer data collection from their own device), and IVR (customer voice print).</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Architected staging and production infrastructures on Amazon Web Services (AWS) using Elastic Beanstalk and RDS to auto-scale based upon demand.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Designed the release management process for all applications using Continuous Integration practices.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Developed REST APIs for client rates and data submissions.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Maintained legacy platforms co-location hardware and maintenance.</span>
             </li>
           </ul>
         </div>
-        <!-- end awards list -->
-      </div>
-      <!-- main-col end -->
-    </div>
-    <!-- End skills -->
-  </section>
-  <!-- Resume Section End-->
-  <section id="portfolio">
-    <div class="row">
-      <div class="twelve columns collapsed">
-        <!-- portfolio-wrapper -->
-        <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow">
-          <div class="three columns header-col text-center">
 
+        <!-- Job 3 -->
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Software Systems Principal Engineer</h3>
+              <h4 class="text-xl text-gray-700">Quest Software Inc.</h4>
+            </div>
+            <span class="text-gray-600 font-medium mt-2 md:mt-0">November 2016 - February 2017</span>
           </div>
-          <div class="three columns header-col text-center">
-            <a href="http://www.ethoscustombrands.com" target="_blank">
-              <img src="images/ethos-logo.png" />
-            </a>
-          </div>
-          <div class="three columns header-col text-center">
-            <a href="http://www.gamefira.com" target="_blank">
-              <img src="images/gamefira-logo.png" />
-            </a>
-          </div>
-          <div class="three columns header-col text-center">
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Developed a command line utility (Golang) that wraps up the process of building, packaging, testing, and deploying your application (Development, Staging, or Production) in a common interface and using a standardized configuration process.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Created and maintained launch (Docker Swarm & Hashicorp Nomad), registry (Hashicorp Consul), & runtime (Vagrant box & Microsoft Azure) plugins to extend the functionality of the command line utility.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Evolved the command line utility by introducing a User Interface (Angular2) that interacted with the existing command line utility through a REST API.</span>
+            </li>
+          </ul>
+        </div>
 
+        <!-- Job 4 -->
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Software Systems Principal Engineer</h3>
+              <h4 class="text-xl text-gray-700">Dell Inc.</h4>
+            </div>
+            <span class="text-gray-600 font-medium mt-2 md:mt-0">May 2013 - November 2016</span>
           </div>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Created a patent pending Appliance to manage configuration, installation, upgrades, and state of the DCM software across multiple Docker containers.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Designed Business Intelligence tools (Golang - backend/api, AngularJS - frontend, MySQL, & BoltDB) that perform trending, anomaly detection, and introspection.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Performed data mining and analysis on large scale MySQL and Riak clusters (100 million+ records) and log files located in customer environments.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Assisted with high-level software integrations on a multitude of public and private clouds and platforms such as Amazon Web Services, Rackspace, Joyent, Terremark, OpSource, Google Cloud Engine, VMWare, Eucalyptus, CloudStack, and OpenStack.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Deployment and troubleshooting of Dell Cloud Manager Software (Java Based) using DevOps techniques and log analysis. Aided the customer support and engineering teams in query building (SQL), schema changes, and proper indexing for Dell Cloud Manager.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Maintainer of the Mixcoatl Python library (<a href="https://mixcoatl.net" target="_blank" class="text-blue-600 hover:underline">https://mixcoatl.net</a>) for interacting with the Dell Cloud Manager API.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Developed a fully-automated handsfree utility used to fully configure Dell Cloud Manager on a single server + post setup operations without human interaction.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Contributor to the Dell Cloud Manager installer (Chef based) for the simple installation of Dell Cloud Manager across various OS distributions.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Job 5 -->
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Sr. Cloud Systems Engineer</h3>
+              <h4 class="text-xl text-gray-700">Enstratius Inc.</h4>
+            </div>
+            <span class="text-gray-600 font-medium mt-2 md:mt-0">November 2011 - May 2013</span>
+          </div>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Company was purchased by Dell Inc. in May 2013</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>First hired employee after Series A round of funding.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Provided customer training on cloud computing and the Enstratius software.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Pre-sales engagements for product education and Proof-of-Concept advocacy.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Handled support tickets and provided support metrics to the CEO.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Generated custom reports using raw SQL (MySQL database) for customers.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Engaged in paid Cloud Consultant for many Enterprise level companies.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Auto-provisioning of servers via DevOps (Chef) or custom developed scripts (Bash, Python, Ruby, PHP, Perl, etc.)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>High familiarity with major clouds (AWS, Rackspace, GoGrid, Azure, Terramark, etc.)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Job 6 -->
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Chief Technology Officer</h3>
+              <h4 class="text-xl text-gray-700">Crazygood LLC</h4>
+            </div>
+            <span class="text-gray-600 font-medium mt-2 md:mt-0">August 2010 - November 2011</span>
+          </div>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Acted as the Technical Co-Founder in this bootstrapped startup.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Created marketing and vision plans that allowed us to reach 11,000 paying subscribers in the first year.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Lead development of the application (LAMP, PHP, MySQL, and jQuery).</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Developed a database intensive compensation utility that automated payout to Paypal and ACH (NACHA).</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Heavy use of AWS/Rackspace clouds to create a zero downtime solution.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+              <span>Managed development, outsourcing, and SDLC.</span>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Call-To-Action Section
-      ================================================== -->
-<!--   <section id="call-to-action">
-    <div class="row">
-      <div class="two columns header-col">
-        <h1 class="wow"><span><i class="fa fa-paper-plane fa-5x pull-left fa-fw"></i></span></h1>
+    </section>
+
+    <!-- Recognition & Awards -->
+    <section class="mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-gray-300">Recognition & Awards</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition-shadow">
+          <div class="text-5xl text-yellow-500 mb-4">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Challenges of Big Data</h3>
+          <p class="text-gray-600 mb-2">Awarded June 2015</p>
+          <a href="https://web.mit.edu/" target="_blank" class="text-blue-600 hover:underline">MIT.edu</a>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition-shadow">
+          <div class="text-5xl text-yellow-500 mb-4">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Michael Dell Champion Award</h3>
+          <p class="text-gray-600 mb-2">Awarded in both 2014 & 2015</p>
+          <a href="https://dell.com" target="_blank" class="text-blue-600 hover:underline">Dell Inc.</a>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition-shadow">
+          <div class="text-5xl text-yellow-500 mb-4">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Magna Cum Laude</h3>
+          <p class="text-gray-600 mb-2">Awarded May 2005</p>
+          <a href="https://www.coloradotech.edu" target="_blank" class="text-blue-600 hover:underline">Colorado Technical University</a>
+        </div>
       </div>
-      <div class="seven columns">
-        <p>"Every child deserves the opportunity to reach their full potential. It is our responsibility as leaders to help knock down every possible barrier in front of them. If a child is not encouraged and challenged to reach their best, we need to recognize and remedy it immediately." -- Brian Williams</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-gray-400">Brian Williams &copy; Copyright 2025, All Rights Reserved</p>
+        <div class="flex gap-4">
+          <a href="https://www.facebook.com/Briandeewilliams" target="_blank" 
+             class="text-gray-400 hover:text-white transition-colors text-2xl" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/bdwilliams" target="_blank" 
+             class="text-gray-400 hover:text-white transition-colors text-2xl" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/briandeewilliams/en" target="_blank" 
+             class="text-gray-400 hover:text-white transition-colors text-2xl" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.github.com/bdwilliams" target="_blank" 
+             class="text-gray-400 hover:text-white transition-colors text-2xl" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
       </div>
-      <div class="three columns action wow">
-        <a href="https://www.facebook.com/BrianWilliamsSallisawSchoolBoard" target="_blank" class="button"><i class="fa fa-facebook fa-1x"></i>&nbsp;&nbsp;Follow&nbsp;me</a>
-      </div>
-    </div>
-  </section> -->
-  <!-- Call-To-Action Section End-->
-  <footer>
-    <div class="row">
-      <div class="twelve columns">
-        <ul class="social-links">
-          <li><a href="https://www.facebook.com/Briandeewilliams" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="http://twitter.com/bdwilliams" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="http://www.linkedin.com/in/briandeewilliams/en" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="http://www.github.com/bdwilliams" target="_blank"><i class="fa fa-github"></i></a></li>
-        </ul>
-        <ul class="copyright">
-          <li>Brian Williams &copy; Copyright 2017, All Rights Reserved</li>
-        </ul>
-      </div>
-      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="index.html#home"><i class="fa fa-chevron-up"></i></a></div>
     </div>
   </footer>
-  <script src="js/jquery-2.1.1.min.js"></script>
-  <script src="js/jquery.fittext.js"></script>
-  <script src="js/jquery.nicescroll.min.js"></script>
-  <script src="js/script.js"></script>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" 
+          class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 transition-opacity duration-300 z-50"
+          aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Simple JavaScript for back to top -->
+  <script>
+    // Back to top button
+    const backToTopButton = document.getElementById('backToTop');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.remove('opacity-0');
+        backToTopButton.classList.add('opacity-100');
+      } else {
+        backToTopButton.classList.remove('opacity-100');
+        backToTopButton.classList.add('opacity-0');
+      }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 
 </html>
