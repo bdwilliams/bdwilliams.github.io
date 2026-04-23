@@ -1,0 +1,361 @@
+export const siteData = {
+  person: {
+    name: "Brian Williams",
+    shortTitle:
+      "Principal Engineer • Distributed Systems • Platform Architecture • Large-Scale Systems",
+    jobTitle: "Principal Engineer",
+    location: "Sallisaw, Oklahoma, US",
+    locality: "Sallisaw",
+    region: "Oklahoma",
+    country: "US",
+    phone: "(918) 208-3133",
+    email: "brian@mxapps.com",
+    website: "https://www.iambrianwilliams.com/",
+    linkedin: "https://www.linkedin.com/in/briandeewilliams/en",
+    github: "https://www.github.com/bdwilliams",
+    avatar: "https://www.iambrianwilliams.com/images/avatar.jpg",
+    avatarPath: "images/avatar.jpg",
+  },
+  seo: {
+    home: {
+      title:
+        "Brian Williams | Principal Engineer | Distributed Systems & Platform Architecture",
+      description:
+        "Brian Williams is a principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, large-scale data pipelines, legacy modernization, and cloud-native application infrastructure.",
+      keywords:
+        "Principal Engineer, Distributed Systems, Platform Architecture, Data Pipelines, BigQuery, Cloud Functions, Backend Systems, Technical Leadership, System Design",
+      canonical: "https://www.iambrianwilliams.com/",
+      ogTitle: "Brian Williams | Principal Engineer",
+      ogDescription:
+        "Principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, large-scale data pipelines, and legacy modernization.",
+      twitterDescription:
+        "Distributed systems, platform architecture, high-scale data pipelines, and technical leadership.",
+    },
+    resume: {
+      title: "Brian Williams - Resume",
+      description:
+        "Brian Williams - Principal Engineer, Distributed Systems, Platform Architecture, Technical Leadership",
+      canonical: "https://www.iambrianwilliams.com/resume.html",
+      ogTitle: "Brian Williams Resume",
+      ogDescription:
+        "Resume for Brian Williams, principal engineer focused on distributed systems, platform architecture, and technical leadership.",
+    },
+  },
+  about: {
+    home: [
+      "Principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, and large-scale data and application infrastructure. I design and build systems that operate under real-world scale, cost, and reliability constraints across cloud-native platforms, high-throughput data pipelines, and complex integration layers.",
+      "I do some of my best work in high-ambiguity environments, turning complexity and operational chaos into clear system boundaries, scalable architectures, and production-ready implementations. Known for stabilizing failing platforms, modernizing legacy systems, and translating chaotic business and technical requirements into durable, high-performance solutions.",
+    ],
+    resume: [
+      "Principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, and large-scale data and application infrastructure. Proven track record designing and building systems that operate under real-world scale, cost, and reliability constraints, including cloud-native platforms, high-throughput data pipelines, and complex integration layers.",
+      "Known for stepping into ambiguous or unstable environments and turning chaos into clear system boundaries, scalable architectures, and production-ready implementations. Experienced in stabilizing failing platforms, rebuilding legacy systems, and driving execution across both backend systems and customer-facing product delivery.",
+    ],
+    highlight:
+      "Built systems processing 250M+ UPCs/day and 7.5B+ catalog rows/day using cloud-native architectures.",
+  },
+  strengths: [
+    {
+      title: "Distributed Systems Architecture",
+      description:
+        "Designs application and platform architectures that hold up under high throughput, operational complexity, and evolving product demands.",
+    },
+    {
+      title: "Legacy Rebuilds and Modernization",
+      description:
+        "Replaces aging or failing systems with maintainable, cloud-based platforms built for reliability, scale, and long-term flexibility.",
+    },
+    {
+      title: "Scale, Cost, and Performance",
+      description:
+        "Evaluates technical tradeoffs with a strong bias toward efficiency, performance, horizontal scalability, and practical cost control.",
+    },
+    {
+      title: "Data Pipelines and Validation",
+      description:
+        "Builds high-throughput data pipelines, validation layers, and analytics systems operating across billions of records and complex regional data variations.",
+    },
+    {
+      title: "Turning Complexity into Scalable Systems",
+      description:
+        "Thrives in ambiguous or unstable environments, turning operational and technical chaos into clear system boundaries, durable architectures, and predictable execution.",
+    },
+    {
+      title: "Execution and Technical Leadership",
+      description:
+        "Drives architecture and execution while contributing directly to implementation, debugging, and delivery across complex systems.",
+    },
+  ],
+  selectedWork: [
+    {
+      title: "High-Scale Inventory and Catalog Pipelines",
+      description:
+        "Built independent inventory and catalog pipelines operating at 250M+ UPCs/day and 7.5B+ rows/day, supporting validation, promotion, image processing, and large-scale data workflows.",
+    },
+    {
+      title: "Legacy Platform Rebuilds",
+      description:
+        "Stabilized failing systems and rebuilt long-lived legacy platforms into modern cloud-based applications with stronger reliability, maintainability, and delivery velocity.",
+    },
+    {
+      title: "Workflow Orchestration and Integration Systems",
+      description:
+        "Designed orchestration layers, domain-specific languages, APIs, and integration platforms enabling dynamic workflows across operational systems, partner systems, and user-facing applications.",
+    },
+    {
+      title: "Product Launches and Platform Delivery",
+      description:
+        "Drove technical execution for major public product launches, including Retail Campaign Studio and Storefronts, while aligning frontend experience, backend architecture, and platform-wide performance.",
+    },
+  ],
+  exits: [
+    {
+      title: "Enstratius → Dell (acquisition)",
+      description:
+        "Early engineering team member contributing to a cloud management platform that scaled from Series A through acquisition by Dell, including multi-cloud infrastructure systems, enterprise deployments, and customer-facing architecture.",
+    },
+    {
+      title: "Dell Software → Quest (acquisition)",
+      description:
+        "Contributed to platform architecture and deployment systems during Dell Software’s transition and acquisition, building extensible lifecycle tooling that improved standardization, portability, and operational reliability.",
+    },
+    {
+      title: "Data Exchange, Inc. (TPV.com) → AnswerNet (acquisition)",
+      description:
+        "Served as CTO and technical leader through acquisition by AnswerNet, leading platform modernization, system rebuilds, and operational improvements that strengthened scalability, reliability, and product value.",
+    },
+  ],
+  experience: [
+    {
+      title: "Vice President of Engineering",
+      homeTitle: "VP of Engineering",
+      company: "Locally.com",
+      dateHome: "January 2022 - Present",
+      dateResume: "Jan, 2022 - Present",
+      bullets: [
+        "Architected and led development of a high-scale inventory pipeline replacing legacy systems, processing ~250M UPCs/day.",
+        "Independently architected and led development of a large-scale catalog pipeline processing ~7.5B rows/day, including image processing and data promotion workflows.",
+        "Designed both systems using cloud function-based architectures to eliminate bottlenecks, enable horizontal scalability, and maintain strong cost efficiency with minimal operational overhead.",
+        "Designed a BigQuery-based data validation and diffing layer operating across billions of records, enabling complex comparisons across languages, currencies, and regional datasets.",
+        "Drove technical execution for Retail Campaign Studio and Storefronts, delivering major public product launches while aligning frontend experience with backend architecture and scaling platform performance.",
+        "Translated ambiguous business requirements into scalable system designs, execution plans, and production-ready implementations.",
+        "Contributed directly to architecture and critical implementation across applications, infrastructure, and delivery workflows.",
+        "Evaluated and balanced tradeoffs across scalability, reliability, delivery speed, and cost when defining system direction.",
+      ],
+    },
+    {
+      title: "Chief Technology Officer",
+      company: "Data Exchange, Inc. (TPV.com) • acquired by AnswerNet",
+      dateHome: "March 2017 - August 2021",
+      dateResume: "Mar, 2017 - Aug, 2021",
+      summary:
+        "Call center-based third-party verification platform founded in 1998.",
+      bullets: [
+        "Stabilized platform following a failed enterprise migration and led full rebuild of a 20+ year legacy system (FoxPro, co-located infrastructure) into a modern, scalable cloud-based application.",
+        "Designed and implemented a custom domain-specific language (DSL) to orchestrate call flows across human agents and IVR systems, enabling dynamic, runtime-driven behavior without code deployments.",
+        "Led design and development of EZTPV, a hybrid web and call center system enabling customers to initiate or complete verification workflows via URL-based interfaces, including secure data capture and signature handling.",
+        "Architected API platforms and integration layers supporting external partnerships and rapid expansion of product capabilities.",
+        "Built and scaled cloud infrastructure to support business growth while improving reliability, deployment speed, and cost efficiency.",
+        "Established CI/CD pipelines and DevOps practices that significantly reduced deployment friction and improved system stability.",
+      ],
+    },
+    {
+      title: "Software Systems Principal Engineer",
+      company: "Dell Inc. (Dell Software division) • acquired by Quest Software Inc.",
+      dateHome: "May 2013 - February 2017",
+      dateResume: "May, 2013 - Feb, 2017",
+      summary:
+        "Dell Software division was acquired and relaunched as Quest Software Inc. in November 2016.",
+      homeBullets: [
+        "Invented and developed a patent-pending containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
+        "Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.",
+        "Designed an extensible plugin architecture supporting multiple container orchestration and cloud platforms.",
+        "Built comprehensive business intelligence and data engineering systems enabling predictive analytics, anomaly detection, and operational insights across large-scale distributed systems.",
+        "Architected multi-cloud integration strategy supporting enterprise customers across diverse cloud platforms and hybrid environments.",
+        "Established DevOps best practices, database optimization strategies, and automated deployment solutions that reduced setup time from days to minutes.",
+      ],
+      bullets: [
+        "Invented and developed patent-pending containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
+        "Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.",
+        "Designed an extensible plugin architecture supporting multiple container orchestration and cloud platforms.",
+        "Led development of a web-based UI that improved platform accessibility and developer usability.",
+        "Built comprehensive business intelligence platform enabling predictive analytics, anomaly detection, and operational insights for large-scale distributed systems.",
+        "Led data engineering initiatives analyzing petabyte-scale datasets to drive product improvements and customer success outcomes.",
+        "Architected multi-cloud integration strategy supporting enterprise customers across diverse cloud platforms and hybrid environments.",
+        "Established DevOps best practices and database optimization strategies, improving system performance and reducing operational overhead.",
+        "Maintained open-source Python library (<a href=\"https://mixcoatl.net\" target=\"_blank\" rel=\"noopener noreferrer\">Mixcoatl</a>) enabling developer community adoption and platform extensibility.",
+        "Designed and implemented fully automated deployment solutions reducing setup time from days to minutes while eliminating manual configuration errors.",
+      ],
+    },
+    {
+      title: "Sr. Cloud Systems Engineer",
+      company: "Enstratius Inc.",
+      dateResume: "Nov, 2011 - May, 2013",
+      summary: "Enstratius → Dell (acquisition).",
+      bullets: [
+        "Early-stage team member at cloud management platform acquired by Dell, contributing to growth from Series A to successful exit.",
+        "Led customer success initiatives including enterprise training, technical consulting, and strategic account management.",
+        "Drove pre-sales technical engagements and proof-of-concept implementations, directly contributing to enterprise customer acquisition.",
+        "Established customer support operations and metrics reporting, enabling data-driven improvements to product and service delivery.",
+        "Delivered custom analytics solutions and data insights for enterprise clients, enabling strategic business decisions.",
+        "Provided cloud architecture consulting to Fortune 500 companies, establishing technical credibility and driving platform adoption.",
+        "Architected and implemented infrastructure automation solutions supporting multi-cloud deployments at enterprise scale.",
+      ],
+    },
+    {
+      title: "Chief Technology Officer",
+      company: "Crazygood LLC",
+      dateResume: "Aug, 2010 - Nov, 2011",
+      bullets: [
+        "Co-founded bootstrapped startup as technical co-founder, building the product from concept to market-leading platform.",
+        "Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in the first year.",
+        "Architected and built scalable web platform from the ground up, establishing technical foundation for rapid customer acquisition.",
+        "Designed and implemented automated financial systems processing high-volume transactions with payment providers.",
+        "Architected highly available cloud infrastructure ensuring zero-downtime operations and seamless scalability.",
+        "Established engineering practices and managed distributed development teams, delivering products on aggressive timelines.",
+      ],
+    },
+    {
+      title: "Director of Information Technology",
+      company: "enlyten LLC",
+      dateResume: "Sep, 2009 - Aug, 2010",
+      bullets: [
+        "Led complete website re-architecture initiative, integrating vendor APIs and building comprehensive customer management systems.",
+        "Developed analytics and reporting solutions leveraging MySQL databases to drive business insights and growth strategies.",
+        "Reduced technology department overhead by 60% through strategic process improvements.",
+        "Collaborated on compensation plan algorithm design and developed validation utilities ensuring mathematical accuracy.",
+      ],
+    },
+    {
+      title: "Director of Technology",
+      company: "VYPE LLC",
+      dateResume: "Jun, 2007 - Sep, 2009",
+      summary:
+        "Formerly known as High School Sports - The Magazine.",
+      bullets: [
+        "First technical leader hired to establish technology foundation for an established media company.",
+        "Architected and built corporate website platform with modular content management system enabling franchise customization.",
+        "Implemented high-performance infrastructure using MySQL and memcached, optimizing page load times for enhanced user experience.",
+        "Developed comprehensive analytics platform providing franchise-level insights on traffic, views, and engagement metrics.",
+        "Built custom advertising server with advanced targeting capabilities including duration, regional, and impression controls.",
+      ],
+    },
+    {
+      title: "System Administrator / Developer",
+      company: "BigString Corporation",
+      dateResume: "Nov, 2005 - Mar, 2007",
+      bullets: [
+        "Developed core patented technology powering innovative email security solution with self-destructing and recall capabilities.",
+        "Managed full-stack development including feature implementation, technical support, and database administration.",
+        "Architected and maintained production infrastructure across Debian-based server environment in enterprise data center.",
+        "Served as primary developer for PHP-based application platform, delivering core product functionality.",
+      ],
+    },
+  ],
+  skills: [
+    {
+      title: "Development",
+      items: [
+        "Golang",
+        "Python",
+        "PHP",
+        "JavaScript",
+        "jQuery",
+        "VueJS",
+        "Angular",
+        "Node.js",
+        "Bash/Shell",
+        "HTML",
+        "CSS",
+      ],
+    },
+    {
+      title: "Databases",
+      items: ["MySQL", "Postgres", "BoltDB", "MongoDB", "RethinkDB", "SQLite"],
+    },
+    {
+      title: "Clouds",
+      items: [
+        "Amazon Web Services",
+        "Rackspace",
+        "Microsoft Azure",
+        "Google Cloud Platform",
+        "Joyent",
+      ],
+    },
+    {
+      title: "Operating Systems",
+      items: [
+        "Debian",
+        "Ubuntu",
+        "RHEL",
+        "CentOS",
+        "FreeBSD",
+        "OpenBSD",
+        "NetBSD",
+        "CoreOS",
+        "Alpine Linux",
+      ],
+    },
+  ],
+  education: [
+    {
+      title: "Information Technology, Bachelor of Business Administration",
+      institution: "Colorado Technical University",
+      date: "Jan, 2003 - May, 2005",
+    },
+  ],
+  awards: [
+    {
+      title: "Tackling the Challenges of Big Data",
+      institution: "Massachusetts Institute of Technology",
+      date: "Awarded on: Jun 24, 2015",
+      shortDate: "Awarded June 2015",
+      url: "https://web.mit.edu/",
+      icon: "fa-certificate",
+    },
+    {
+      title: "Michael Dell Champion Award",
+      institution: "Dell Inc.",
+      date: "Awarded on: Apr 01, 2015",
+      shortDate: "Awarded April 2015",
+      url: "https://dell.com",
+      icon: "fa-trophy",
+    },
+    {
+      title: "Michael Dell Champion Award",
+      institution: "Dell Inc.",
+      date: "Awarded on: Apr 01, 2014",
+      shortDate: "Awarded April 2014",
+      url: "https://dell.com",
+      icon: "fa-trophy",
+    },
+    {
+      title: "Magna Cum Laude",
+      institution: "Colorado Technical University",
+      date: "Awarded on: May 01, 2005",
+      shortDate: "Awarded May 2005",
+      url: "https://www.coloradotech.edu",
+      icon: "fa-graduation-cap",
+    },
+  ],
+  references: [
+    {
+      name: "Greg Moselle",
+      company: "Amazon Web Services, Inc.",
+      quote:
+        "Brian is uniquely gifted with a technical business vision. His ability to understand chaotic business requirements and distill them into concrete value propositions for clients is matched only by his ability to share his knowledge with his colleagues in a way that makes the entire team stronger.",
+    },
+    {
+      name: "John Willis",
+      company: "Red Hat, Inc. & Docker, Inc.",
+      quote:
+        "Brian has shown a high degree of proficiency in numerous programming languages, databases, and platforms. In addition, he is an excellent communicator and has the skills and personality needed to be a leader.",
+    },
+    {
+      name: "Tim Freeman",
+      company: "Amazon Web Services, Inc.",
+      quote:
+        "Brian has a consistent, superior output. He can jump into any project, including frontend, and get the work done. He works very well independently and can be trusted to deliver or raise red flags when appropriate.",
+    },
+  ],
+};
