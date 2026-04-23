@@ -4,19 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>Brian Williams - Resume</title>
-  <meta name="description" content="Brian Williams - Engineering Executive, Full Stack Engineer">
+  <meta name="description" content="Brian Williams - Principal Engineer, Hands-On Technical Leader">
   <meta name="author" content="Brian Williams - brian@mxapps.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  
+
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68550549-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -24,7 +21,7 @@
     gtag('js', new Date());
     gtag('config', 'UA-68550549-1');
   </script>
-  
+
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -55,6 +52,7 @@
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 0.5rem;
+      gap: 1rem;
     }
     .job-title {
       font-weight: 600;
@@ -89,6 +87,14 @@
     .job-description ul {
       list-style-type: disc !important;
     }
+    @media (max-width: 640px) {
+      .job-header {
+        flex-direction: column;
+      }
+      .job-date {
+        white-space: normal;
+      }
+    }
     @media print {
       body {
         font-size: 11pt;
@@ -105,7 +111,7 @@
 
 <body class="bg-white text-gray-900">
   <div class="max-w-4xl mx-auto px-4 py-8 md:py-12">
-    
+
     <header class="mb-8">
       <h1 class="text-3xl md:text-4xl font-bold mb-2">Brian Williams</h1>
       <div class="text-gray-600 text-sm md:text-base mb-4">
@@ -116,22 +122,20 @@
       </div>
     </header>
 
-    
     <section class="section">
       <h2 class="section-title">About</h2>
       <p class="text-gray-700">
-        I am an engineering executive and technology leader with deep technical expertise in full stack development, 
-        database systems, and DevOps. With a proven track record as CTO and VP of Engineering, I combine strategic 
-        leadership with hands-on technical excellence to build high-performing teams and deliver scalable solutions. 
-        I have a reputation for high-energy work ethic, excellent analytical and problem-solving skills, 
-        and strong stakeholder relations.
+        Principal engineer and hands-on technical leader with deep experience in scalable systems,
+        platform modernization, cloud infrastructure, DevOps, and backend architecture. Proven track
+        record leading teams while contributing directly to system design, implementation, and delivery.
+        Known for turning ambiguous business requirements into practical technical solutions that improve
+        reliability, efficiency, scalability, and cost control.
       </p>
     </section>
 
-    
     <section class="section">
       <h2 class="section-title">Work Experience</h2>
-      
+
       <div class="job-item">
         <div class="job-header">
           <div>
@@ -142,11 +146,11 @@
         </div>
         <div class="job-description">
           <ul>
-            <li>Leading engineering teams to deliver scalable, high-performance solutions for local business discovery and engagement platform.</li>
-            <li>Overseeing architecture decisions and technical strategy for multi-platform applications serving millions of users.</li>
-            <li>Driving engineering excellence through modern development practices, code quality standards, and continuous improvement initiatives.</li>
-            <li>Collaborating with product, design, and business stakeholders to align technical roadmap with company objectives.</li>
-            <li>Building and mentoring high-performing engineering teams while fostering a culture of innovation and technical excellence.</li>
+            <li>Architected and delivered platform capabilities for multi-product systems serving millions of users.</li>
+            <li>Turned ambiguous business requirements into workable technical designs, execution plans, and production systems.</li>
+            <li>Contributed directly to architecture and critical implementation across applications, infrastructure, and delivery workflows.</li>
+            <li>Balanced scale, reliability, delivery speed, and cost when evaluating system direction and operational tradeoffs.</li>
+            <li>Helped align product, design, and engineering around practical system boundaries, delivery sequencing, and long-term maintainability.</li>
           </ul>
         </div>
       </div>
@@ -155,19 +159,18 @@
         <div class="job-header">
           <div>
             <div class="job-title">Chief Technology Officer</div>
-            <div class="job-company">Data Exchange, Inc. (TPV.com)</div>
+            <div class="job-company">Data Exchange, Inc. (TPV.com) • acquired by AnswerNet</div>
           </div>
           <div class="job-date">Mar, 2017 - Aug, 2021</div>
         </div>
         <div class="job-description">
-          <p class="text-gray-600 text-sm mb-2">Call Center based Third Party Verification company which was started in 1998.</p>
+          <p class="text-gray-600 text-sm mb-2">Call center-based third-party verification company founded in 1998.</p>
           <ul>
-            <li>Led engineering organization through complete platform modernization, transitioning from legacy systems to modern cloud-native architecture.</li>
-            <li>Built and managed high-performing development teams, establishing engineering practices and culture that enabled rapid product delivery.</li>
-            <li>Drove product strategy and roadmap execution, launching multiple new revenue-generating product lines that expanded market reach.</li>
-            <li>Architected and implemented scalable cloud infrastructure enabling business growth while optimizing operational costs.</li>
-            <li>Established modern DevOps practices and CI/CD pipelines, significantly improving deployment velocity and system reliability.</li>
-            <li>Designed and delivered API platforms enabling strategic partnerships and integration capabilities.</li>
+            <li>Led modernization of a legacy platform into a more scalable cloud-oriented architecture.</li>
+            <li>Designed and built the technical foundation for new products, APIs, and integration capabilities.</li>
+            <li>Contributed hands-on to architecture, infrastructure, and critical system implementation.</li>
+            <li>Improved deployment speed and reliability through CI/CD and stronger DevOps practices.</li>
+            <li>Built cloud infrastructure and operational patterns that supported growth while improving efficiency and cost control.</li>
           </ul>
         </div>
       </div>
@@ -181,11 +184,11 @@
           <div class="job-date">Nov, 2016 - Feb, 2017</div>
         </div>
         <div class="job-description">
-          <p class="text-gray-600 text-sm mb-2">Dell Software Group was purchased by Francisco Partner Group in November 2016.</p>
+          <p class="text-gray-600 text-sm mb-2">Dell Software → Quest (acquisition).</p>
           <ul>
-            <li>Architected and developed unified deployment platform enabling standardized application lifecycle management across multiple environments.</li>
-            <li>Designed extensible plugin architecture supporting multiple container orchestration and cloud platforms, increasing deployment flexibility.</li>
-            <li>Led development of web-based UI expanding platform accessibility and improving developer experience through intuitive interfaces.</li>
+            <li>Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.</li>
+            <li>Designed an extensible plugin architecture supporting multiple container orchestration and cloud platforms.</li>
+            <li>Led development of a web-based UI that improved platform accessibility and developer usability.</li>
           </ul>
         </div>
       </div>
@@ -201,12 +204,12 @@
         <div class="job-description">
           <ul>
             <li>Invented and developed patent-pending containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.</li>
-            <li>Built comprehensive Business Intelligence platform enabling predictive analytics, anomaly detection, and operational insights for large-scale distributed systems.</li>
+            <li>Built comprehensive business intelligence platform enabling predictive analytics, anomaly detection, and operational insights for large-scale distributed systems.</li>
             <li>Led data engineering initiatives analyzing petabyte-scale datasets to drive product improvements and customer success outcomes.</li>
             <li>Architected multi-cloud integration strategy supporting enterprise customers across diverse cloud platforms and hybrid environments.</li>
             <li>Established DevOps best practices and database optimization strategies, improving system performance and reducing operational overhead.</li>
             <li>Maintained open-source Python library (<a href="https://mixcoatl.net" target="_blank">Mixcoatl</a>) enabling developer community adoption and platform extensibility.</li>
-            <li>Designed and implemented fully-automated deployment solutions reducing setup time from days to minutes while eliminating manual configuration errors.</li>
+            <li>Designed and implemented fully automated deployment solutions reducing setup time from days to minutes while eliminating manual configuration errors.</li>
           </ul>
         </div>
       </div>
@@ -220,9 +223,9 @@
           <div class="job-date">Nov, 2011 - May, 2013</div>
         </div>
         <div class="job-description">
-          <p class="text-gray-600 text-sm mb-2">Company was purchased by Dell Inc. in May 2013.</p>
+          <p class="text-gray-600 text-sm mb-2">Enstratius → Dell (acquisition).</p>
           <ul>
-            <li>Early-stage team member at cloud management platform acquired by Dell Inc., contributing to company growth from Series A to successful exit.</li>
+            <li>Early-stage team member at cloud management platform acquired by Dell, contributing to growth from Series A to successful exit.</li>
             <li>Led customer success initiatives including enterprise training, technical consulting, and strategic account management.</li>
             <li>Drove pre-sales technical engagements and proof-of-concept implementations, directly contributing to enterprise customer acquisition.</li>
             <li>Established customer support operations and metrics reporting, enabling data-driven improvements to product and service delivery.</li>
@@ -243,18 +246,73 @@
         </div>
         <div class="job-description">
           <ul>
-            <li>Co-founded bootstrapped startup as Technical Co-Founder, building product from concept to market-leading platform.</li>
-            <li>Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in first year.</li>
-            <li>Architected and built scalable web platform from ground up, establishing technical foundation for rapid customer acquisition.</li>
+            <li>Co-founded bootstrapped startup as technical co-founder, building the product from concept to market-leading platform.</li>
+            <li>Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in the first year.</li>
+            <li>Architected and built scalable web platform from the ground up, establishing technical foundation for rapid customer acquisition.</li>
             <li>Designed and implemented automated financial systems processing high-volume transactions with payment providers.</li>
             <li>Architected highly available cloud infrastructure ensuring zero-downtime operations and seamless scalability.</li>
             <li>Established engineering practices and managed distributed development teams, delivering products on aggressive timelines.</li>
           </ul>
         </div>
       </div>
+
+      <div class="job-item">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Director of Information Technology</div>
+            <div class="job-company">enlyten LLC</div>
+          </div>
+          <div class="job-date">Sep, 2009 - Aug, 2010</div>
+        </div>
+        <div class="job-description">
+          <ul>
+            <li>Led complete website re-architecture initiative, integrating vendor APIs and building comprehensive customer management systems.</li>
+            <li>Developed analytics and reporting solutions leveraging MySQL databases to drive business insights and growth strategies.</li>
+            <li>Reduced technology department overhead by 60% through strategic process improvements.</li>
+            <li>Collaborated on compensation plan algorithm design and developed validation utilities ensuring mathematical accuracy.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-item">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Director of Technology</div>
+            <div class="job-company">VYPE LLC</div>
+          </div>
+          <div class="job-date">Jun, 2007 - Sep, 2009</div>
+        </div>
+        <div class="job-description">
+          <p class="text-gray-600 text-sm mb-2">Formerly known as High School Sports - The Magazine.</p>
+          <ul>
+            <li>First technical leader hired to establish technology foundation for an established media company.</li>
+            <li>Architected and built corporate website platform with modular content management system enabling franchise customization.</li>
+            <li>Implemented high-performance infrastructure using MySQL and memcached, optimizing page load times for enhanced user experience.</li>
+            <li>Developed comprehensive analytics platform providing franchise-level insights on traffic, views, and engagement metrics.</li>
+            <li>Built custom advertising server with advanced targeting capabilities including duration, regional, and impression controls.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-item">
+        <div class="job-header">
+          <div>
+            <div class="job-title">System Administrator / Developer</div>
+            <div class="job-company">BigString Corporation</div>
+          </div>
+          <div class="job-date">Nov, 2005 - Mar, 2007</div>
+        </div>
+        <div class="job-description">
+          <ul>
+            <li>Developed core patented technology powering innovative email security solution with self-destructing and recall capabilities.</li>
+            <li>Managed full-stack development including feature implementation, technical support, and database administration.</li>
+            <li>Architected and maintained production infrastructure across Debian-based server environment in enterprise data center.</li>
+            <li>Served as primary developer for PHP-based application platform, delivering core product functionality.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    
     <section class="section">
       <h2 class="section-title">Skills</h2>
       <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -264,7 +322,7 @@
             <li>Golang</li>
             <li>Python</li>
             <li>PHP</li>
-            <li>Javascript</li>
+            <li>JavaScript</li>
             <li>jQuery</li>
             <li>VueJS</li>
             <li>Angular</li>
@@ -291,7 +349,7 @@
             <li>Amazon Web Services</li>
             <li>Rackspace</li>
             <li>Microsoft Azure</li>
-            <li>Google Cloud Engine</li>
+            <li>Google Cloud Platform</li>
             <li>Joyent</li>
           </ul>
         </div>
@@ -306,13 +364,12 @@
             <li>OpenBSD</li>
             <li>NetBSD</li>
             <li>CoreOS</li>
-            <li>AlpineLinux</li>
+            <li>Alpine Linux</li>
           </ul>
         </div>
       </div>
     </section>
 
-    
     <section class="section">
       <h2 class="section-title">Education</h2>
       <div class="job-item">
@@ -326,7 +383,6 @@
       </div>
     </section>
 
-    
     <section class="section">
       <h2 class="section-title">Awards</h2>
       <div class="award-item">
@@ -367,7 +423,6 @@
       </div>
     </section>
 
-    
     <section class="section">
       <h2 class="section-title">References</h2>
       <div class="reference-item">
@@ -402,4 +457,3 @@
 </body>
 
 </html>
-
