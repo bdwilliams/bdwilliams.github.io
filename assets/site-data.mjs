@@ -131,6 +131,7 @@ export const siteData = {
       company: "Locally.com",
       dateHome: "January 2022 - Present",
       dateResume: "Jan, 2022 - Present",
+      summary: "Hands-on VP role in a lean startup org, reporting to the CTO. Primary owner of architecture and implementation; provides technical direction to a small team.",
       bullets: [
         "Architected and led development of a high-scale inventory pipeline replacing legacy systems, processing ~250M UPCs/day.",
         "Independently architected and led development of a large-scale catalog pipeline processing ~7.5B rows/day, including image processing and data promotion workflows.",
@@ -148,7 +149,7 @@ export const siteData = {
       dateHome: "March 2017 - August 2021",
       dateResume: "Mar, 2017 - Aug, 2021",
       summary:
-        "Call center-based third-party verification platform founded in 1998.",
+        "CTO at a bootstrapped call center platform founded in 1998. Hands-on technical lead and primary architect in a small team environment, responsible for full-stack system design and implementation.",
       bullets: [
         "Stabilized platform following a failed enterprise migration and led full rebuild of a 20+ year legacy system (FoxPro, co-located infrastructure) into a modern, scalable cloud-based application.",
         "Designed and implemented a custom domain-specific language (DSL) to orchestrate call flows across human agents and IVR systems, enabling dynamic, runtime-driven behavior without code deployments.",
@@ -166,7 +167,7 @@ export const siteData = {
       summary:
         "Dell Software division was acquired and relaunched as Quest Software Inc. in November 2016.",
       homeBullets: [
-        "Invented and developed a patent-pending containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
+        "Invented and developed a containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
         "Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.",
         "Designed an extensible plugin architecture supporting multiple container orchestration and cloud platforms.",
         "Built comprehensive business intelligence and data engineering systems enabling predictive analytics, anomaly detection, and operational insights across large-scale distributed systems.",
@@ -174,7 +175,7 @@ export const siteData = {
         "Established DevOps best practices, database optimization strategies, and automated deployment solutions that reduced setup time from days to minutes.",
       ],
       bullets: [
-        "Invented and developed patent-pending containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
+        "Invented and developed containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
         "Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.",
         "Designed an extensible plugin architecture supporting multiple container orchestration and cloud platforms.",
         "Led development of a web-based UI that improved platform accessibility and developer usability.",
@@ -182,7 +183,6 @@ export const siteData = {
         "Led data engineering initiatives analyzing petabyte-scale datasets to drive product improvements and customer success outcomes.",
         "Architected multi-cloud integration strategy supporting enterprise customers across diverse cloud platforms and hybrid environments.",
         "Established DevOps best practices and database optimization strategies, improving system performance and reducing operational overhead.",
-        "Maintained open-source Python library (<a href=\"https://mixcoatl.net\" target=\"_blank\" rel=\"noopener noreferrer\">Mixcoatl</a>) enabling developer community adoption and platform extensibility.",
         "Designed and implemented fully automated deployment solutions reducing setup time from days to minutes while eliminating manual configuration errors.",
       ],
     },
@@ -205,6 +205,7 @@ export const siteData = {
       title: "Chief Technology Officer",
       company: "Crazygood LLC",
       dateResume: "Aug, 2010 - Nov, 2011",
+      summary: "Technical co-founder and lead developer at a bootstrapped startup. Owned full-stack architecture and implementation end-to-end, supplementing with outsourced development as needed.",
       bullets: [
         "Co-founded bootstrapped startup as technical co-founder, building the product from concept to market-leading platform.",
         "Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in the first year.",
@@ -259,7 +260,6 @@ export const siteData = {
         "Python",
         "PHP",
         "JavaScript",
-        "jQuery",
         "VueJS",
         "Angular",
         "Node.js",
@@ -276,10 +276,10 @@ export const siteData = {
       title: "Clouds",
       items: [
         "Amazon Web Services",
-        "Rackspace",
         "Microsoft Azure",
         "Google Cloud Platform",
-        "Joyent",
+        "Kubernetes",
+        "Pub/Sub",
       ],
     },
     {
@@ -289,10 +289,6 @@ export const siteData = {
         "Ubuntu",
         "RHEL",
         "CentOS",
-        "FreeBSD",
-        "OpenBSD",
-        "NetBSD",
-        "CoreOS",
         "Alpine Linux",
       ],
     },
@@ -305,14 +301,6 @@ export const siteData = {
     },
   ],
   awards: [
-    {
-      title: "Tackling the Challenges of Big Data",
-      institution: "Massachusetts Institute of Technology",
-      date: "Awarded on: Jun 24, 2015",
-      shortDate: "Awarded June 2015",
-      url: "https://web.mit.edu/",
-      icon: "fa-certificate",
-    },
     {
       title: "Michael Dell Champion Award",
       institution: "Dell Inc.",
@@ -347,7 +335,7 @@ export const siteData = {
     },
     {
       name: "John Willis",
-      company: "Red Hat, Inc. & Docker, Inc.",
+      company: "Red Hat, Inc. & Docker, Inc. — Co-author, The DevOps Handbook; Co-founder, DevOps Days",
       quote:
         "Brian has shown a high degree of proficiency in numerous programming languages, databases, and platforms. In addition, he is an excellent communicator and has the skills and personality needed to be a leader.",
     },
