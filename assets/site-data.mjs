@@ -43,7 +43,7 @@ export const siteData = {
   },
   about: {
     home: [
-      "Hands-on principal engineer with a track record across two acquired companies - architecting the platform modernization central to TPV.com's acquisition by AnswerNet, and driving enterprise growth across Fortune 500 and government clients at Enstratius ahead of its acquisition by Dell. Today I build and own systems at Locally.com processing 250M+ UPCs and 7.5B+ catalog rows daily.",
+      "Hands-on principal engineer with a track record building and modernizing systems that operate at meaningful scale. Contributed to two successful acquisitions: architecting the platform modernization central to TPV.com's acquisition by AnswerNet, and establishing enterprise credibility across Fortune 500 and government clients at Enstratius ahead of its acquisition by Dell. Today I build and own systems at Locally.com processing 250M+ UPCs and 7.5B+ catalog rows daily.",
       "I work at the intersection of architecture and execution: setting technical direction and standards, owning the hard design decisions, and building the critical systems myself. I do my best work in high-ambiguity environments - stabilizing failing platforms, modernizing legacy systems, and turning complex, chaotic requirements into durable, scalable implementations.",
     ],
     resume: [
@@ -125,7 +125,7 @@ export const siteData = {
       company: "Locally.com",
       dateHome: "January 2022 - Present",
       dateResume: "Jan, 2022 - Present",
-      summary: "Hands-on VP role in a lean startup org, reporting to the CTO. Primary owner of architecture and implementation; provides technical direction to a small team.",
+      summary: "Senior technical leadership role reporting to the CTO, with primary ownership of architecture, implementation, technical direction, and system-level execution across core platform initiatives.",
       bullets: [
         "Architected and led development of a high-scale inventory pipeline replacing legacy systems, processing ~250M UPCs/day.",
         "Independently architected and led development of a large-scale catalog pipeline processing ~7.5B rows/day, including image processing and data promotion workflows.",
@@ -143,7 +143,7 @@ export const siteData = {
       dateHome: "March 2017 - August 2021",
       dateResume: "Mar, 2017 - Aug, 2021",
       summary:
-        "CTO at a bootstrapped call center platform founded in 1998. Hands-on technical lead and primary architect in a small team environment, responsible for full-stack system design and implementation.",
+        "CTO and primary architect for a call center-based third-party verification platform founded in 1998, responsible for platform modernization, full-stack system design, infrastructure, and product delivery.",
       bullets: [
         "Stabilized platform following a failed enterprise migration and architected Focus - a full replacement for a 20+ year legacy system (FoxPro, co-located infrastructure) - delivering dramatically greater scale, client integration capabilities, and mobile-link availability that became central to the company's acquisition by AnswerNet.",
         "Designed and implemented a custom domain-specific language (DSL) to orchestrate call flows across human agents and IVR systems, enabling dynamic, runtime-driven behavior without code deployments.",
@@ -249,9 +249,6 @@ export const siteData = {
         "VueJS",
         "Angular",
         "Node.js",
-        "Bash/Shell",
-        "HTML",
-        "CSS",
       ],
     },
     {

@@ -394,7 +394,7 @@ function renderHomePage() {
 
       <section class="mb-12 md:mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-gray-300">
-          Selected Work
+          Technical Impact
         </h2>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
