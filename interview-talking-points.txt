@@ -14,15 +14,59 @@ STORY 1: DESIGN A SYSTEM AT SCALE
 Question triggers: "Design a high-throughput data pipeline", "Tell me about your
 most complex technical project", "How do you approach scalability?"
 
-Use: Locally.com catalog pipeline (7.5B rows/day) or inventory pipeline (250M
+Use: Locally.com catalog pipeline (7.5B rows/day) or inventory pipeline (250M+
 UPCs/day).
 
-Setup:
-- Legacy system could not scale to meet growing catalog volume
-- Needed horizontal elasticity with strict cost control and minimal operational
-  overhead
+Before/after context - lead with this:
+- Inventory: ~3M UPCs/day when you arrived. Now 250M+. That is an 83x increase.
+- Catalog: 100% manual when you arrived. Now fully automated at 7.5B+ rows/day.
+  The automation did not just scale the process - it replaced a human workflow
+  entirely.
 
-The decision:
+The two systems are architecturally distinct - use this to show judgment:
+- Inventory: event-driven via Pub/Sub, triggered by file delivery. Chosen
+  because inventory updates are unpredictable and latency-sensitive - you want
+  to process as soon as the file lands, not on a timer.
+- Catalog: schedule-based with client-configurable cadence (can run multiple
+  times per day). Chosen because catalog updates are planned and batched -
+  clients suggest when to run, the system handles the rest.
+
+The catalog "before" state - make this concrete when telling the story:
+- Manual editing of CSV/Excel files that had to conform to a specific format
+- High opportunity for human error in formatting and file structure
+- Every catalog update was a manual, fragile, one-off process
+- The catalog bundle system did not just automate the process - it eliminated
+  an entire class of errors by enforcing consistent normalization and
+  validations on every single run, regardless of the input source
+- Frame it this way: "before, the quality of the output depended on whoever
+  edited the file that day. After, the quality is guaranteed by the system."
+
+The catalog bundle system pipeline stages (know these cold):
+  consume -> standardize/normalize -> process -> promote
+
+Additional system intelligence - strong talking points:
+
+Header detection:
+- Built heuristic + AI fallback header detection to automatically identify and
+  map incoming file field structures
+- Design decision: heuristics run first (fast, cheap), AI is the fallback when
+  heuristics cannot confidently resolve the mapping
+- Purpose: reduce onboarding complexity and human intervention for new clients
+- Key statement: the current system limiter is data availability, not processing
+  capacity - the architecture has headroom beyond current load
+
+Taxonomy classification (in progress):
+- Contributing to a taxonomy classification system backed by a proprietary
+  trained LLM
+- Built the API service layer for interacting with the LLM - you own the
+  infrastructure layer, not just the integration
+- Automates UPC taxonomy classification by feeding relevant product data to
+  the model - replaces a manual or rules-based classification process
+- Two distinct AI production systems now: heuristic+AI for file mapping,
+  LLM-based classification for taxonomy - shows a pattern of applying AI
+  pragmatically to real operational problems, not experimentally
+
+The architectural decision:
 - Chose cloud function-based architecture over a traditional persistent service
 - Tradeoff: more complex orchestration, but true horizontal scalability with
   near-zero idle cost and no single bottleneck
@@ -35,7 +79,9 @@ Outcome:
   re-architecture
 
 What to emphasize:
-- The tradeoff decision (why cloud functions, what you gave up)
+- The before/after delta (83x on inventory, zero-to-full automation on catalog)
+- The architectural distinction between the two systems - event-driven vs.
+  scheduled is a deliberate tradeoff, not a coincidence
 - The BigQuery validation layer as a separate design problem
 - You designed, architected, and built both systems as primary IC
 

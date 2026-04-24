@@ -128,9 +128,11 @@ export const siteData = {
       dateResume: "Jan, 2022 - Present",
       summary: "Senior technical leadership role reporting to the CTO, with primary ownership of architecture, implementation, technical direction, and system-level execution across core platform initiatives.",
       bullets: [
-        "Architected and led development of a high-scale inventory pipeline replacing legacy systems, processing ~250M UPCs/day.",
-        "Independently architected and led development of a large-scale catalog pipeline processing ~7.5B rows/day, including image processing and data promotion workflows.",
+        "Architected and led development of a high-scale inventory pipeline, growing throughput from ~3M to 250M+ UPCs/day (83x) using an event-driven, Pub/Sub-based architecture triggered by file delivery.",
+        "Architected and built the catalog bundle system, replacing error-prone manual CSV/Excel editing with a validation-enforced, automated pipeline that applies consistent normalization on every run - consuming, standardizing, processing, and promoting catalog data at 7.5B+ rows/day.",
         "Designed both systems using cloud function-based architectures to eliminate bottlenecks, enable horizontal scalability, and maintain strong cost efficiency with minimal operational overhead.",
+        "Built intelligent header detection using heuristics with AI fallback to automatically identify and map incoming file structures, reducing onboarding complexity and human intervention; current system limiter is data availability, not processing capacity.",
+        "Contributing to a taxonomy classification system backed by a proprietary trained LLM, including building the API service layer for LLM interaction; automates UPC taxonomy classification by feeding relevant product data to the model.",
         "Designed a BigQuery-based data validation and diffing layer operating across billions of records, enabling complex comparisons across languages, currencies, and regional datasets.",
         "Drove technical execution for Retail Campaign Studio and Storefronts, delivering major public product launches while aligning frontend experience with backend architecture and scaling platform performance.",
         "Set technical direction for the team through architecture reviews, API and integration design standards, and data modeling - establishing patterns adopted across the platform.",
