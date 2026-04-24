@@ -23,7 +23,7 @@ export const siteData = {
       description:
         "Brian Williams is a principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, large-scale data pipelines, legacy modernization, and cloud-native application infrastructure.",
       keywords:
-        "Principal Engineer, Distributed Systems, Platform Architecture, Data Pipelines, BigQuery, Cloud Functions, Backend Systems, Technical Leadership, System Design",
+        "Principal Engineer, Staff Engineer, Distributed Systems, Platform Architecture, System Design, Data Pipelines, BigQuery, Cloud Functions, Backend Systems, Technical Leadership, Legacy Modernization",
       canonical: "https://www.iambrianwilliams.com/",
       ogTitle: "Brian Williams | Principal Engineer",
       ogDescription:
@@ -43,11 +43,11 @@ export const siteData = {
   },
   about: {
     home: [
-      "Hands-on principal engineer with a track record across three acquired companies - including architecting the platform modernization central to TPV.com's acquisition by AnswerNet, and driving enterprise growth across Fortune 500 and government clients at Enstratius ahead of its acquisition by Dell. Today I build and own systems at Locally.com processing 250M+ UPCs and 7.5B+ catalog rows daily.",
+      "Hands-on principal engineer with a track record across two acquired companies - architecting the platform modernization central to TPV.com's acquisition by AnswerNet, and driving enterprise growth across Fortune 500 and government clients at Enstratius ahead of its acquisition by Dell. Today I build and own systems at Locally.com processing 250M+ UPCs and 7.5B+ catalog rows daily.",
       "I work at the intersection of architecture and execution: setting technical direction and standards, owning the hard design decisions, and building the critical systems myself. I do my best work in high-ambiguity environments - stabilizing failing platforms, modernizing legacy systems, and turning complex, chaotic requirements into durable, scalable implementations.",
     ],
     resume: [
-      "Hands-on principal engineer with a proven track record across three acquired companies, systems processing billions of records daily, and client engagements spanning Fortune 500 enterprises and government entities. Technical architect behind the platform modernization central to TPV.com's acquisition by AnswerNet; contributed to enterprise growth driving Enstratius's acquisition by Dell.",
+      "Hands-on principal engineer with a proven track record across two acquired companies, systems processing billions of records daily, and client engagements spanning Fortune 500 enterprises and government entities. Technical architect behind the platform modernization central to TPV.com's acquisition by AnswerNet; contributed to enterprise growth driving Enstratius's acquisition by Dell.",
       "Operates at the intersection of architecture and execution - setting technical direction, defining standards, and owning critical implementation across distributed systems, cloud-native platforms, and high-throughput data pipelines. Most effective in high-ambiguity environments: stabilizing failing platforms, modernizing legacy systems, and translating complex business requirements into durable, scalable architecture.",
     ],
     highlight: "",
@@ -135,8 +135,6 @@ export const siteData = {
         "Set technical direction for the team through architecture reviews, API and integration design standards, and data modeling - establishing patterns adopted across the platform.",
         "Owned security, compliance, performance, and scalability review processes, defining acceptance criteria and architectural guardrails for new systems and integrations.",
         "Drove code quality and engineering best practices across the team through structured reviews and hands-on mentorship.",
-        "Translated ambiguous business requirements into scalable system designs, execution plans, and production-ready implementations.",
-        "Evaluated and balanced tradeoffs across scalability, reliability, delivery speed, and cost when defining system direction.",
       ],
     },
     {
@@ -187,9 +185,8 @@ export const siteData = {
       dateResume: "Nov, 2011 - May, 2013",
       summary: "Hybrid engineering role at a cloud management startup acquired by Dell; platform rebranded as Dell Cloud Manager post-acquisition. Operated across pre-sales, enterprise implementation, training, support, and platform development - driving adoption across Fortune 500 companies and government entities from Series A through acquisition.",
       bullets: [
-        "Led customer success initiatives including enterprise training, technical consulting, and strategic account management across Fortune 500 companies and government entities.",
-        "Drove pre-sales technical engagements and proof-of-concept implementations, directly contributing to enterprise customer acquisition.",
-        "Provided cloud architecture consulting to Fortune 500 companies and government entities, establishing technical credibility and driving platform adoption.",
+        "Drove pre-sales technical engagements, enterprise training, and proof-of-concept implementations across Fortune 500 companies and government entities, directly contributing to customer acquisition and platform credibility.",
+        "Provided cloud architecture consulting to enterprise and government clients, establishing technical credibility and driving platform adoption.",
         "Architected and implemented infrastructure automation solutions supporting multi-cloud deployments at enterprise scale.",
       ],
     },
@@ -202,8 +199,7 @@ export const siteData = {
         "Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in the first year.",
         "Architected and built scalable web platform from the ground up, establishing technical foundation for rapid customer acquisition.",
         "Designed and implemented automated financial systems processing high-volume transactions with payment providers.",
-        "Architected highly available cloud infrastructure ensuring zero-downtime operations and seamless scalability.",
-        "Established engineering practices and managed distributed development teams, delivering products on aggressive timelines.",
+        "Established engineering practices and coordinated with distributed development teams to deliver products on aggressive timelines.",
       ],
     },
     {
@@ -237,7 +233,6 @@ export const siteData = {
       dateResume: "Nov, 2005 - Mar, 2007",
       bullets: [
         "Developed core patented technology powering innovative email security solution with self-destructing and recall capabilities.",
-        "Managed full-stack development including feature implementation, technical support, and database administration.",
         "Architected and maintained production infrastructure across Debian-based server environment in enterprise data center.",
         "Served as primary developer for PHP-based application platform, delivering core product functionality.",
       ],
@@ -264,7 +259,7 @@ export const siteData = {
       items: ["MySQL", "Postgres", "BoltDB", "MongoDB", "RethinkDB", "SQLite"],
     },
     {
-      title: "Clouds",
+      title: "Cloud & Infrastructure",
       items: [
         "Amazon Web Services",
         "Microsoft Azure",
