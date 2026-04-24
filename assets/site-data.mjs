@@ -246,6 +246,7 @@ export const siteData = {
         "Python",
         "PHP",
         "JavaScript",
+        "React",
         "VueJS",
         "Angular",
         "Node.js",
@@ -253,7 +254,7 @@ export const siteData = {
     },
     {
       title: "Databases",
-      items: ["MySQL", "Postgres", "BoltDB", "MongoDB", "RethinkDB", "SQLite"],
+      items: ["MySQL", "BigQuery", "Postgres", "BoltDB", "MongoDB", "RethinkDB", "SQLite"],
     },
     {
       title: "Cloud & Infrastructure",
@@ -261,6 +262,7 @@ export const siteData = {
         "Amazon Web Services",
         "Microsoft Azure",
         "Google Cloud Platform",
+        "Docker",
         "Kubernetes",
         "Pub/Sub",
       ],
