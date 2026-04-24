@@ -346,9 +346,7 @@ function renderHomePage() {
 
             <div class="text-gray-400 mb-6 max-w-4xl space-y-4 leading-relaxed">
               ${about.home.map((paragraph) => `<p>${paragraph}</p>`).join("")}
-              <p class="text-blue-300 text-sm md:text-base font-medium">
-                ${about.highlight.replace("250M+ UPCs/day", "<strong>250M+ UPCs/day</strong>").replace("7.5B+ catalog rows/day", "<strong>7.5B+ catalog rows/day</strong>")}
-              </p>
+              ${about.highlight ? `<p class="text-blue-300 text-sm md:text-base font-medium">${about.highlight.replace("250M+ UPCs/day", "<strong>250M+ UPCs/day</strong>").replace("7.5B+ catalog rows/day", "<strong>7.5B+ catalog rows/day</strong>")}</p>` : ""}
             </div>
 
             <div class="flex flex-wrap justify-center lg:justify-start gap-4">
@@ -634,7 +632,7 @@ function renderResumePage() {
       <section class="section">
         <h2 class="section-title">About</h2>
         ${about.resume.map((paragraph) => `<p class="text-gray-700 mb-4">${paragraph}</p>`).join("")}
-        <p class="text-gray-700">${about.highlight}</p>
+        ${about.highlight ? `<p class="text-gray-700">${about.highlight}</p>` : ""}
       </section>
 
       <section class="section">

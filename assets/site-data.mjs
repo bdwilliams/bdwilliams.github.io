@@ -43,15 +43,14 @@ export const siteData = {
   },
   about: {
     home: [
-      "Principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, and large-scale data and application infrastructure. I design and build systems that operate under real-world scale, cost, and reliability constraints across cloud-native platforms, high-throughput data pipelines, and complex integration layers.",
-      "I do some of my best work in high-ambiguity environments, turning complexity and operational chaos into clear system boundaries, scalable architectures, and production-ready implementations. Known for stabilizing failing platforms, modernizing legacy systems, and translating chaotic business and technical requirements into durable, high-performance solutions.",
+      "Hands-on principal engineer with a track record across three acquired companies - including architecting the platform modernization central to TPV.com's acquisition by AnswerNet, and driving enterprise growth across Fortune 500 and government clients at Enstratius ahead of its acquisition by Dell. Today I build and own systems at Locally.com processing 250M+ UPCs and 7.5B+ catalog rows daily.",
+      "I work at the intersection of architecture and execution: setting technical direction and standards, owning the hard design decisions, and building the critical systems myself. I do my best work in high-ambiguity environments - stabilizing failing platforms, modernizing legacy systems, and turning complex, chaotic requirements into durable, scalable implementations.",
     ],
     resume: [
-      "Principal engineer and hands-on technical leader specializing in distributed systems, platform architecture, and large-scale data and application infrastructure. Proven track record designing and building systems that operate under real-world scale, cost, and reliability constraints, including cloud-native platforms, high-throughput data pipelines, and complex integration layers.",
-      "Known for stepping into ambiguous or unstable environments and turning chaos into clear system boundaries, scalable architectures, and production-ready implementations. Experienced in stabilizing failing platforms, rebuilding legacy systems, and driving execution across both backend systems and customer-facing product delivery.",
+      "Hands-on principal engineer with a proven track record across three acquired companies, systems processing billions of records daily, and client engagements spanning Fortune 500 enterprises and government entities. Technical architect behind the platform modernization central to TPV.com's acquisition by AnswerNet; contributed to enterprise growth driving Enstratius's acquisition by Dell.",
+      "Operates at the intersection of architecture and execution - setting technical direction, defining standards, and owning critical implementation across distributed systems, cloud-native platforms, and high-throughput data pipelines. Most effective in high-ambiguity environments: stabilizing failing platforms, modernizing legacy systems, and translating complex business requirements into durable, scalable architecture.",
     ],
-    highlight:
-      "Built systems processing 250M+ UPCs/day and 7.5B+ catalog rows/day using cloud-native architectures.",
+    highlight: "",
   },
   strengths: [
     {
@@ -111,12 +110,12 @@ export const siteData = {
     {
       title: "Enstratius → Dell (acquisition)",
       description:
-        "Operated in a hybrid engineering role spanning pre-sales, customer implementation, enterprise training, and platform development — driving adoption and technical credibility across Fortune 500 companies and government entities that contributed to the company’s growth from Series A through acquisition by Dell.",
+        "Operated in a hybrid engineering role spanning pre-sales, customer implementation, enterprise training, and platform development - driving adoption and technical credibility across Fortune 500 companies and government entities that contributed to the company’s growth from Series A through acquisition by Dell.",
     },
     {
       title: "Data Exchange, Inc. (TPV.com) → AnswerNet (acquisition)",
       description:
-        "Architected and built the Focus platform — a full replacement for a 20+ year legacy system — enabling dramatically greater scale, client integrations, and mobile-link capabilities. The platform modernization was central to the company's acquisition by AnswerNet.",
+        "Architected and built the Focus platform - a full replacement for a 20+ year legacy system - enabling dramatically greater scale, client integrations, and mobile-link capabilities. The platform modernization was central to the company's acquisition by AnswerNet.",
     },
   ],
   experience: [
@@ -133,7 +132,7 @@ export const siteData = {
         "Designed both systems using cloud function-based architectures to eliminate bottlenecks, enable horizontal scalability, and maintain strong cost efficiency with minimal operational overhead.",
         "Designed a BigQuery-based data validation and diffing layer operating across billions of records, enabling complex comparisons across languages, currencies, and regional datasets.",
         "Drove technical execution for Retail Campaign Studio and Storefronts, delivering major public product launches while aligning frontend experience with backend architecture and scaling platform performance.",
-        "Set technical direction for the team through architecture reviews, API and integration design standards, and data modeling — establishing patterns adopted across the platform.",
+        "Set technical direction for the team through architecture reviews, API and integration design standards, and data modeling - establishing patterns adopted across the platform.",
         "Owned security, compliance, performance, and scalability review processes, defining acceptance criteria and architectural guardrails for new systems and integrations.",
         "Drove code quality and engineering best practices across the team through structured reviews and hands-on mentorship.",
         "Translated ambiguous business requirements into scalable system designs, execution plans, and production-ready implementations.",
@@ -148,7 +147,7 @@ export const siteData = {
       summary:
         "CTO at a bootstrapped call center platform founded in 1998. Hands-on technical lead and primary architect in a small team environment, responsible for full-stack system design and implementation.",
       bullets: [
-        "Stabilized platform following a failed enterprise migration and architected Focus — a full replacement for a 20+ year legacy system (FoxPro, co-located infrastructure) — delivering dramatically greater scale, client integration capabilities, and mobile-link availability that became central to the company's acquisition by AnswerNet.",
+        "Stabilized platform following a failed enterprise migration and architected Focus - a full replacement for a 20+ year legacy system (FoxPro, co-located infrastructure) - delivering dramatically greater scale, client integration capabilities, and mobile-link availability that became central to the company's acquisition by AnswerNet.",
         "Designed and implemented a custom domain-specific language (DSL) to orchestrate call flows across human agents and IVR systems, enabling dynamic, runtime-driven behavior without code deployments.",
         "Led design and development of EZTPV, a hybrid web and call center system enabling customers to initiate or complete verification workflows via URL-based interfaces, including secure data capture and signature handling.",
         "Architected API platforms and integration layers supporting external partnerships and rapid expansion of product capabilities.",
@@ -162,7 +161,7 @@ export const siteData = {
       dateHome: "May 2013 - February 2017",
       dateResume: "May, 2013 - Feb, 2017",
       summary:
-        "Dell Software division was acquired and relaunched as Quest Software Inc. in November 2016.",
+        "Hands-on principal engineer at Dell's software division. Operated as an IC architect and technical lead, designing enterprise platform infrastructure through the division's acquisition and relaunch as Quest Software.",
       homeBullets: [
         "Invented and developed a containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
         "Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.",
@@ -175,7 +174,6 @@ export const siteData = {
         "Invented and developed containerized appliance solution for enterprise software lifecycle management, significantly simplifying deployment complexity.",
         "Architected and developed a unified deployment platform for standardized application lifecycle management across multiple environments.",
         "Designed an extensible plugin architecture supporting multiple container orchestration and cloud platforms.",
-        "Led development of a web-based UI that improved platform accessibility and developer usability.",
         "Built comprehensive business intelligence platform enabling predictive analytics, anomaly detection, and operational insights for large-scale distributed systems.",
         "Led data engineering initiatives analyzing petabyte-scale datasets to drive product improvements and customer success outcomes.",
         "Architected multi-cloud integration strategy supporting enterprise customers across diverse cloud platforms and hybrid environments.",
@@ -187,13 +185,10 @@ export const siteData = {
       title: "Sr. Cloud Systems Engineer",
       company: "Enstratius Inc.",
       dateResume: "Nov, 2011 - May, 2013",
-      summary: "Hybrid engineering role at a cloud management startup acquired by Dell. Operated across pre-sales, enterprise implementation, training, support, and platform development — driving adoption across Fortune 500 companies and government entities from Series A through acquisition.",
+      summary: "Hybrid engineering role at a cloud management startup acquired by Dell. Operated across pre-sales, enterprise implementation, training, support, and platform development - driving adoption across Fortune 500 companies and government entities from Series A through acquisition.",
       bullets: [
-        "Early-stage team member at cloud management platform acquired by Dell, contributing to growth from Series A to successful exit.",
-        "Led customer success initiatives including enterprise training, technical consulting, and strategic account management.",
+        "Led customer success initiatives including enterprise training, technical consulting, and strategic account management across Fortune 500 companies and government entities.",
         "Drove pre-sales technical engagements and proof-of-concept implementations, directly contributing to enterprise customer acquisition.",
-        "Established customer support operations and metrics reporting, enabling data-driven improvements to product and service delivery.",
-        "Delivered custom analytics solutions and data insights for enterprise clients, enabling strategic business decisions.",
         "Provided cloud architecture consulting to Fortune 500 companies and government entities, establishing technical credibility and driving platform adoption.",
         "Architected and implemented infrastructure automation solutions supporting multi-cloud deployments at enterprise scale.",
       ],
@@ -204,7 +199,6 @@ export const siteData = {
       dateResume: "Aug, 2010 - Nov, 2011",
       summary: "Technical co-founder and lead developer at a bootstrapped startup. Owned full-stack architecture and implementation end-to-end, supplementing with outsourced development as needed.",
       bullets: [
-        "Co-founded bootstrapped startup as technical co-founder, building the product from concept to market-leading platform.",
         "Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in the first year.",
         "Architected and built scalable web platform from the ground up, establishing technical foundation for rapid customer acquisition.",
         "Designed and implemented automated financial systems processing high-volume transactions with payment providers.",
@@ -332,7 +326,7 @@ export const siteData = {
     },
     {
       name: "John Willis",
-      company: "Red Hat, Inc. & Docker, Inc. — Co-author, The DevOps Handbook; Co-founder, DevOps Days",
+      company: "Red Hat, Inc. & Docker, Inc. - Co-author, The DevOps Handbook; Co-founder, DevOps Days",
       quote:
         "Brian has shown a high degree of proficiency in numerous programming languages, databases, and platforms. In addition, he is an excellent communicator and has the skills and personality needed to be a leader.",
     },
