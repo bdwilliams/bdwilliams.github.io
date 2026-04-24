@@ -324,7 +324,7 @@ function renderHomePage() {
     </style>
   </head>
   <body class="bg-gray-50 text-gray-900">
-    <header class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <header class="bg-gray-900 text-white">
       <div class="max-w-[1400px] mx-auto px-6 md:px-8 lg:px-10 py-12 md:py-16">
         <div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           <div class="flex-shrink-0">
