@@ -1,0 +1,186 @@
+INTERVIEW TALKING POINTS
+Brian Williams - L6/L7 Positioning
+================================================================================
+
+META RULE
+In every story, name the tradeoff you made and why. L6+ interviewers are not
+listening for what you built - they are listening for how you decided. "I chose
+cloud functions over a persistent service because X, and accepted the tradeoff
+of Y" reads senior. Just describing the system does not.
+
+================================================================================
+
+STORY 1: DESIGN A SYSTEM AT SCALE
+Question triggers: "Design a high-throughput data pipeline", "Tell me about your
+most complex technical project", "How do you approach scalability?"
+
+Use: Locally.com catalog pipeline (7.5B rows/day) or inventory pipeline (250M
+UPCs/day).
+
+Setup:
+- Legacy system could not scale to meet growing catalog volume
+- Needed horizontal elasticity with strict cost control and minimal operational
+  overhead
+
+The decision:
+- Chose cloud function-based architecture over a traditional persistent service
+- Tradeoff: more complex orchestration, but true horizontal scalability with
+  near-zero idle cost and no single bottleneck
+- Also designed a BigQuery validation and diffing layer for cross-language,
+  currency, and regional data comparisons at billions of records
+
+Outcome:
+- Both pipelines run independently at production scale today
+- Cost-efficient, operationally lightweight, horizontally scalable without
+  re-architecture
+
+What to emphasize:
+- The tradeoff decision (why cloud functions, what you gave up)
+- The BigQuery validation layer as a separate design problem
+- You designed, architected, and built both systems as primary IC
+
+================================================================================
+
+STORY 2: AMBIGUOUS PROBLEM FROM NOTHING TO DELIVERY
+Question triggers: "Tell me about a time you drove something from ambiguous
+requirements to production", "How do you handle undefined problems?",
+"Tell me about a greenfield project you owned end to end."
+
+Use: Focus platform at TPV.com.
+
+Setup:
+- Walked into a failed enterprise migration on a 20+ year-old FoxPro system
+  running on co-located infrastructure
+- No clean requirements, broken foundation, and an implicit acquisition pressure
+  in the background
+
+Your approach:
+- Start with a fully documented, demonstrable proof of concept - working code,
+  flowcharts, and test flows that make the problem tangible before full commitment
+- Build it to discover it, then build it right
+- Designed a custom DSL for call flow orchestration (see Story 3) as part of
+  the rebuild
+
+Outcome:
+- Focus platform replaced the legacy system
+- Enabled dramatically greater scale, client integrations, and mobile-link
+  capabilities
+- Platform modernization was central to the company's acquisition by AnswerNet
+
+What to emphasize:
+- Your PoC-first methodology under ambiguity
+- The courage to scrap the failed migration and start fresh
+- The acquisition outcome as validation of the technical decisions
+
+================================================================================
+
+STORY 3: A TECHNICAL DECISION YOU WOULD DEFEND UNDER PRESSURE
+Question triggers: "Tell me about a technical decision you are proud of",
+"Tell me about a time you chose a harder technical path", "Describe a system
+design decision that was non-obvious."
+
+Use: The DSL for call flow orchestration at TPV.com.
+
+Setup:
+- Call center platform needed to orchestrate complex call flows across human
+  agents and IVR systems
+- Naive approach: hardcode the logic or use an existing workflow engine
+
+The decision:
+- Designed and implemented a custom domain-specific language (DSL) to drive
+  call flow behavior at runtime
+- Tradeoff: more upfront investment in language design and tooling versus simpler
+  hardcoded flows or an off-the-shelf engine that did not fit the domain
+- Payoff: runtime-driven behavior with no code deployments required for flow
+  changes - operators could modify call logic without engineering involvement
+
+What to emphasize:
+- This is a sophisticated architectural decision most engineers would not make
+- You chose the harder path because it gave the business runtime flexibility
+- Name the tradeoff explicitly: upfront complexity in exchange for long-term
+  operational independence
+
+================================================================================
+
+STORY 4: INFLUENCE WITHOUT AUTHORITY
+Question triggers: "Tell me about a time you led without a direct reporting
+relationship", "How do you drive alignment across teams?", "Tell me about a time
+you changed someone's mind on a technical direction."
+
+Use: Enstratius (pre-Dell acquisition).
+
+Setup:
+- Title was Sr. Cloud Systems Engineer - not a director, not a PM
+- Role was hybrid: pre-sales, enterprise training, implementation, support, and
+  platform development simultaneously
+
+The influence:
+- Ran architecture consulting engagements with Fortune 500 companies and
+  government entities
+- Built technical credibility through hands-on work, not authority
+- Customer adoption and enterprise trust were direct contributors to the
+  company's growth from Series A through acquisition by Dell
+- Platform was rebranded as Dell Cloud Manager post-acquisition
+
+What to emphasize:
+- Influence through technical authority and customer trust, not title
+- The breadth of the role (sales through development) as a feature, not a
+  liability - it gave you full context others did not have
+- The acquisition outcome as the organizational result of that influence
+
+================================================================================
+
+STORY 5: RAISING THE BAR FOR YOUR TEAM
+Question triggers: "Tell me about a time you improved engineering quality across
+a team", "How do you scale your impact beyond your own output?", "Tell me about
+technical mentorship or leadership."
+
+Use: Locally.com technical direction work.
+
+Setup:
+- VP of Engineering reporting to CTO, primary architect and IC in a lean org
+
+What you built organizationally:
+- Defined API and integration design standards adopted across the platform
+- Established data modeling patterns the team builds against
+- Owned security, compliance, performance, and scalability review processes
+- Defined code quality standards and conducted hands-on architecture reviews
+- Hands-on mentorship through structured reviews, not just process documentation
+
+What to emphasize:
+- The difference between "I wrote good code" and "I set the standards everyone
+  codes to"
+- Standards as a force multiplier: your decisions affect every engineer on the
+  platform, not just your own output
+- Concrete artifacts: review processes, design standards, acceptance criteria -
+  not vague "culture of quality" language
+
+================================================================================
+
+BONUS: PROTOTYPING / WORKING STYLE (use when asked about process or approach)
+
+Your methodology when facing ambiguity:
+1. Turn the loose idea into a fully documented, testable proof of concept
+2. Working code + flowcharts + demonstrable test flows
+3. Surfaces real constraints early - finds the unknowns before full investment
+4. Gives the team something concrete to evaluate, challenge, and build on
+5. Build it to discover it, then build it right
+
+This maps to what FAANG calls "driving clarity through artifacts" - a key
+distinction between senior and staff-level engineers.
+
+================================================================================
+
+SKILLS TO BE HONEST ABOUT IN INTERVIEWS
+
+Terraform: Proficient user at Locally.com and Enstratius. Did not design the
+infrastructure from scratch. Can speak to usage and patterns, not initial setup.
+
+Grafana / OpenTelemetry: Consumer, not maintainer. Familiar with dashboards,
+tracing concepts, and instrumentation. Others own the infrastructure.
+
+Kubernetes: Used in production. Building Kubernetes operators (custom
+controllers) is a gap - be upfront if asked about operator development
+specifically.
+
+================================================================================

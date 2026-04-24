@@ -255,7 +255,7 @@ export const siteData = {
     },
     {
       title: "Databases",
-      items: ["MySQL", "BigQuery", "Postgres", "BoltDB", "MongoDB", "RethinkDB", "SQLite"],
+      items: ["MySQL", "BigQuery", "Postgres", "Redis", "BoltDB", "MongoDB", "RethinkDB", "SQLite"],
     },
     {
       title: "Cloud & Infrastructure",
@@ -265,7 +265,10 @@ export const siteData = {
         "Google Cloud Platform",
         "Docker",
         "Kubernetes",
+        "Terraform",
         "Pub/Sub",
+        "Grafana",
+        "OpenTelemetry",
       ],
     },
     {
