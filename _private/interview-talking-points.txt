@@ -230,3 +230,41 @@ controllers) is a gap - be upfront if asked about operator development
 specifically.
 
 ================================================================================
+
+STORY 6: WHY ENGINEER AFTER VP/CTO?
+Question triggers: "Why would you want to be an engineer after being a VP/CTO?",
+"Isn't this a step down for you?", "Why are you moving away from leadership?"
+
+The wrong answer: anything that sounds like a retreat, a step down, or running
+away from leadership. "I miss coding" or "I want to get back to my roots"
+signals burnout or a falling out. Do not frame it as going back to anything.
+
+The right frame: you never left. You are not transitioning away from
+engineering - you have been doing it the whole time. The VP and CTO titles
+were organizational labels in lean companies where everyone wore multiple hats.
+The work was always architecture, implementation, and technical ownership.
+
+What to actually say:
+
+  "Honestly, the title has always been a bit of a mismatch for what I actually
+  do. At Locally I report to the CTO - I'm not running an org, I'm the person
+  who owns the architecture and builds the critical systems. The VP title
+  reflects scope of ownership in a lean startup, not headcount management. At
+  TPV and CrazyGood, I was a technical co-founder - the CTO title meant I was
+  the engineer who also kept the lights on. I've spent my career as the person
+  who takes the hard problems and builds the solutions. A staff or principal
+  engineer title at a company like yours would actually be the most accurate
+  description of what I do that I've ever had."
+
+Why this works:
+1. Reframes the premise - you are not transitioning away from VP/CTO, you are
+   finally getting a title that fits what you have always done
+2. Explains the context without apologizing - lean startups, co-founder roles,
+   reporting to a CTO
+3. Makes it about them - the FAANG title is more accurate, not a demotion
+
+The last sentence is the most important. You are not settling for a lower title.
+You are seeking a more honest one at a company where the role actually matches
+how you have always operated. That is a coherent story and it happens to be true.
+
+================================================================================
