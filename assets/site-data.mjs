@@ -44,11 +44,12 @@ export const siteData = {
   about: {
     home: [
       "Hands-on principal engineer with a track record building and modernizing systems that operate at meaningful scale. Contributed to two successful acquisitions: architecting the platform modernization central to TPV.com's acquisition by AnswerNet, and establishing enterprise credibility across Fortune 500 and government clients at Enstratius ahead of its acquisition by Dell. Today I build and own systems at Locally.com processing 250M+ UPCs and 7.5B+ catalog rows daily.",
-      "I work at the intersection of architecture and execution: setting technical direction and standards, owning the hard design decisions, and building the critical systems myself. I do my best work in high-ambiguity environments - stabilizing failing platforms, modernizing legacy systems, and turning complex, chaotic requirements into durable, scalable implementations.",
+      "I work at the intersection of architecture and execution: setting technical direction and standards, owning the hard design decisions, and building the critical systems myself. I do my best work in high-ambiguity environments - stabilizing failing platforms, modernizing legacy systems, and turning complex, chaotic requirements into durable, scalable implementations. My starting point is turning loose ideas into fully documented, testable proofs of concept - working code, flowcharts, and demonstrable test flows that make abstract problems tangible and decisions concrete. Build it to discover it, then build it right.",
     ],
     resume: [
       "Hands-on principal engineer with a proven track record across two acquired companies, systems processing billions of records daily, and client engagements spanning Fortune 500 enterprises and government entities. Technical architect behind the platform modernization central to TPV.com's acquisition by AnswerNet; contributed to enterprise growth driving Enstratius's acquisition by Dell.",
       "Operates at the intersection of architecture and execution - setting technical direction, defining standards, and owning critical implementation across distributed systems, cloud-native platforms, and high-throughput data pipelines. Most effective in high-ambiguity environments: stabilizing failing platforms, modernizing legacy systems, and translating complex business requirements into durable, scalable architecture.",
+      "Approaches ambiguous problems by turning loose ideas into fully documented, demonstrable proofs of concept - working code, flowcharts, and test flows that surface real constraints early and establish shared understanding before full-scale execution.",
     ],
     highlight: "",
   },
@@ -76,7 +77,7 @@ export const siteData = {
     {
       title: "Turning Complexity into Scalable Systems",
       description:
-        "Thrives in ambiguous or unstable environments, turning operational and technical chaos into clear system boundaries, durable architectures, and predictable execution.",
+        "Thrives in ambiguous or unstable environments. Typical starting point is a fully documented, demonstrable proof of concept - working code, flowcharts, and test flows that surface real constraints early and give teams something concrete to rally around.",
     },
     {
       title: "Execution and Technical Leadership",
