@@ -110,7 +110,7 @@ export const siteData = {
     {
       title: "Enstratius → Dell (acquisition)",
       description:
-        "Operated in a hybrid engineering role spanning pre-sales, customer implementation, enterprise training, and platform development - driving adoption and technical credibility across Fortune 500 companies and government entities that contributed to the company’s growth from Series A through acquisition by Dell.",
+        "Operated in a hybrid engineering role spanning pre-sales, customer implementation, enterprise training, and platform development - driving adoption and technical credibility across Fortune 500 companies and government entities that contributed to the company’s growth from Series A through acquisition by Dell. The platform was rebranded and shipped as Dell Cloud Manager post-acquisition.",
     },
     {
       title: "Data Exchange, Inc. (TPV.com) → AnswerNet (acquisition)",
@@ -185,7 +185,7 @@ export const siteData = {
       title: "Sr. Cloud Systems Engineer",
       company: "Enstratius Inc.",
       dateResume: "Nov, 2011 - May, 2013",
-      summary: "Hybrid engineering role at a cloud management startup acquired by Dell. Operated across pre-sales, enterprise implementation, training, support, and platform development - driving adoption across Fortune 500 companies and government entities from Series A through acquisition.",
+      summary: "Hybrid engineering role at a cloud management startup acquired by Dell; platform rebranded as Dell Cloud Manager post-acquisition. Operated across pre-sales, enterprise implementation, training, support, and platform development - driving adoption across Fortune 500 companies and government entities from Series A through acquisition.",
       bullets: [
         "Led customer success initiatives including enterprise training, technical consulting, and strategic account management across Fortune 500 companies and government entities.",
         "Drove pre-sales technical engagements and proof-of-concept implementations, directly contributing to enterprise customer acquisition.",
