@@ -111,17 +111,12 @@ export const siteData = {
     {
       title: "Enstratius → Dell (acquisition)",
       description:
-        "Early engineering team member contributing to a cloud management platform that scaled from Series A through acquisition by Dell, including multi-cloud infrastructure systems, enterprise deployments, and customer-facing architecture.",
-    },
-    {
-      title: "Dell Software → Quest (acquisition)",
-      description:
-        "Contributed to platform architecture and deployment systems during Dell Software’s transition and acquisition, building extensible lifecycle tooling that improved standardization, portability, and operational reliability.",
+        "Operated in a hybrid engineering role spanning pre-sales, customer implementation, enterprise training, and platform development — driving adoption and technical credibility across Fortune 500 companies and government entities that contributed to the company’s growth from Series A through acquisition by Dell.",
     },
     {
       title: "Data Exchange, Inc. (TPV.com) → AnswerNet (acquisition)",
       description:
-        "Served as CTO and technical leader through acquisition by AnswerNet, leading platform modernization, system rebuilds, and operational improvements that strengthened scalability, reliability, and product value.",
+        "Architected and built the Focus platform — a full replacement for a 20+ year legacy system — enabling dramatically greater scale, client integrations, and mobile-link capabilities. The platform modernization was central to the company's acquisition by AnswerNet.",
     },
   ],
   experience: [
@@ -138,8 +133,10 @@ export const siteData = {
         "Designed both systems using cloud function-based architectures to eliminate bottlenecks, enable horizontal scalability, and maintain strong cost efficiency with minimal operational overhead.",
         "Designed a BigQuery-based data validation and diffing layer operating across billions of records, enabling complex comparisons across languages, currencies, and regional datasets.",
         "Drove technical execution for Retail Campaign Studio and Storefronts, delivering major public product launches while aligning frontend experience with backend architecture and scaling platform performance.",
+        "Set technical direction for the team through architecture reviews, API and integration design standards, and data modeling — establishing patterns adopted across the platform.",
+        "Owned security, compliance, performance, and scalability review processes, defining acceptance criteria and architectural guardrails for new systems and integrations.",
+        "Drove code quality and engineering best practices across the team through structured reviews and hands-on mentorship.",
         "Translated ambiguous business requirements into scalable system designs, execution plans, and production-ready implementations.",
-        "Contributed directly to architecture and critical implementation across applications, infrastructure, and delivery workflows.",
         "Evaluated and balanced tradeoffs across scalability, reliability, delivery speed, and cost when defining system direction.",
       ],
     },
@@ -151,7 +148,7 @@ export const siteData = {
       summary:
         "CTO at a bootstrapped call center platform founded in 1998. Hands-on technical lead and primary architect in a small team environment, responsible for full-stack system design and implementation.",
       bullets: [
-        "Stabilized platform following a failed enterprise migration and led full rebuild of a 20+ year legacy system (FoxPro, co-located infrastructure) into a modern, scalable cloud-based application.",
+        "Stabilized platform following a failed enterprise migration and architected Focus — a full replacement for a 20+ year legacy system (FoxPro, co-located infrastructure) — delivering dramatically greater scale, client integration capabilities, and mobile-link availability that became central to the company's acquisition by AnswerNet.",
         "Designed and implemented a custom domain-specific language (DSL) to orchestrate call flows across human agents and IVR systems, enabling dynamic, runtime-driven behavior without code deployments.",
         "Led design and development of EZTPV, a hybrid web and call center system enabling customers to initiate or complete verification workflows via URL-based interfaces, including secure data capture and signature handling.",
         "Architected API platforms and integration layers supporting external partnerships and rapid expansion of product capabilities.",
@@ -190,14 +187,14 @@ export const siteData = {
       title: "Sr. Cloud Systems Engineer",
       company: "Enstratius Inc.",
       dateResume: "Nov, 2011 - May, 2013",
-      summary: "Enstratius → Dell (acquisition).",
+      summary: "Hybrid engineering role at a cloud management startup acquired by Dell. Operated across pre-sales, enterprise implementation, training, support, and platform development — driving adoption across Fortune 500 companies and government entities from Series A through acquisition.",
       bullets: [
         "Early-stage team member at cloud management platform acquired by Dell, contributing to growth from Series A to successful exit.",
         "Led customer success initiatives including enterprise training, technical consulting, and strategic account management.",
         "Drove pre-sales technical engagements and proof-of-concept implementations, directly contributing to enterprise customer acquisition.",
         "Established customer support operations and metrics reporting, enabling data-driven improvements to product and service delivery.",
         "Delivered custom analytics solutions and data insights for enterprise clients, enabling strategic business decisions.",
-        "Provided cloud architecture consulting to Fortune 500 companies, establishing technical credibility and driving platform adoption.",
+        "Provided cloud architecture consulting to Fortune 500 companies and government entities, establishing technical credibility and driving platform adoption.",
         "Architected and implemented infrastructure automation solutions supporting multi-cloud deployments at enterprise scale.",
       ],
     },
