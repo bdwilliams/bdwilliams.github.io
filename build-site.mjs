@@ -205,6 +205,7 @@ function renderTestimonialCards() {
 
 function renderResumeExperience() {
   return siteData.experience
+    .filter((job) => !job.hideFromResume)
     .map((job) => {
       const summary = job.summary
         ? `<p class="text-gray-600 text-sm mb-2">${job.summary}</p>`

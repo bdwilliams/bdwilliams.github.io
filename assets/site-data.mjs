@@ -121,12 +121,12 @@ export const siteData = {
   ],
   experience: [
     {
-      title: "Vice President of Engineering / Principal Architect",
+      title: "Vice President of Engineering",
       homeTitle: "VP of Engineering",
       company: "Locally.com",
       dateHome: "January 2022 - Present",
       dateResume: "Jan, 2022 - Present",
-      summary: "Principal architecture role reporting to the CTO, with hands-on ownership of core platform design, implementation, data pipeline architecture, scalability, and technical standards across high-throughput inventory and catalog systems.",
+      summary: "Reports to the CTO. Owns architecture, implementation, and technical direction across core platform initiatives - designing and building the systems directly while setting the standards the team executes against.",
       bullets: [
         "Architected and led development of a high-scale inventory pipeline, growing throughput from ~3M to 250M+ UPCs/day (83x) using an event-driven, Pub/Sub-based architecture triggered by file delivery.",
         "Architected and built the catalog bundle system, replacing error-prone manual CSV/Excel editing with a validation-enforced, automated pipeline that applies consistent normalization on every run - consuming, standardizing, processing, and promoting catalog data at 7.5B+ rows/day.",
@@ -141,12 +141,12 @@ export const siteData = {
       ],
     },
     {
-      title: "Chief Technology Officer / Primary Architect & Lead Engineer",
+      title: "Chief Technology Officer",
       company: "Data Exchange, Inc. (TPV.com) • acquired by AnswerNet",
       dateHome: "March 2017 - August 2021",
       dateResume: "Mar, 2017 - Aug, 2021",
       summary:
-        "Held CTO title in a small/mid-sized company while serving as the primary architect and hands-on lead engineer for the company's core verification platform, owning modernization, full-stack system design, infrastructure, and product delivery.",
+        "CTO and primary engineer at a bootstrapped call center platform - responsible for all technical decisions, system architecture, infrastructure, and hands-on delivery from concept to production.",
       bullets: [
         "Stabilized platform following a failed enterprise migration and architected Focus - a full replacement for a 20+ year legacy system (FoxPro, co-located infrastructure) - delivering dramatically greater scale, client integration capabilities, and mobile-link availability that became central to the company's acquisition by AnswerNet.",
         "Designed and implemented a custom domain-specific language (DSL) to orchestrate call flows across human agents and IVR systems, enabling dynamic, runtime-driven behavior without code deployments.",
@@ -194,10 +194,11 @@ export const siteData = {
       ],
     },
     {
-      title: "Chief Technology Officer / Technical Co-founder & Lead Developer",
+      title: "Chief Technology Officer",
       company: "Crazygood LLC",
+      hideFromResume: true,
       dateResume: "Aug, 2010 - Nov, 2011",
-      summary: "Held CTO title as technical co-founder and lead developer at a bootstrapped startup, owning full-stack architecture and hands-on implementation end-to-end while supplementing with outsourced development as needed.",
+      summary: "Technical co-founder and CTO at a bootstrapped startup. Lead developer and primary architect, owning full-stack design and implementation end-to-end while coordinating outsourced development as the product scaled.",
       bullets: [
         "Developed go-to-market strategy and product vision, achieving rapid growth to 11,000 paying subscribers in the first year.",
         "Architected and built scalable web platform from the ground up, establishing technical foundation for rapid customer acquisition.",
@@ -208,6 +209,7 @@ export const siteData = {
     {
       title: "Director of Information Technology",
       company: "enlyten LLC",
+      hideFromResume: true,
       dateResume: "Sep, 2009 - Aug, 2010",
       bullets: [
         "Led complete website re-architecture initiative, integrating vendor APIs and building comprehensive customer management systems.",
@@ -219,6 +221,7 @@ export const siteData = {
     {
       title: "Director of Technology",
       company: "VYPE LLC",
+      hideFromResume: true,
       dateResume: "Jun, 2007 - Sep, 2009",
       summary:
         "Formerly known as High School Sports - The Magazine.",
@@ -233,6 +236,7 @@ export const siteData = {
     {
       title: "System Administrator / Developer",
       company: "BigString Corporation",
+      hideFromResume: true,
       dateResume: "Nov, 2005 - Mar, 2007",
       bullets: [
         "Developed core patented technology powering innovative email security solution with self-destructing and recall capabilities.",
