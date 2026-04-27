@@ -268,3 +268,49 @@ You are seeking a more honest one at a company where the role actually matches
 how you have always operated. That is a coherent story and it happens to be true.
 
 ================================================================================
+
+HANDLING CS FUNDAMENTALS / NO CS DEGREE
+Question triggers: "Can you walk me through your approach to X algorithm?",
+"What's the time complexity of...", "Do you have a CS background?",
+any Leetcode-style coding screen.
+
+The reality: you cannot dance around a live coding screen - you either solve
+the problem or you do not. But L6+ loops often weight system design and
+judgment far more heavily than algorithm trivia. Before any loop, ask the
+recruiter directly: "I want to prepare appropriately - can you walk me through
+the interview format?" This tells you whether to worry about this at all.
+Some companies (Netflix notably) care far more about design and judgment than
+Leetcode performance. Some replace coding screens with practical exercises at
+senior levels.
+
+If the topic comes up directly - own it and redirect:
+
+  "My background is self-taught and practical - I don't have a CS degree and
+  I've never needed to recite a textbook definition of a red-black tree. What
+  I do have is 20 years of making these decisions in production. When I
+  designed the catalog pipeline, I was making explicit choices about
+  throughput, fan-out, and processing complexity at billions of rows. I
+  understand the concepts deeply - I just learned them by building things,
+  not from a curriculum."
+
+Why this works:
+- Honest about the gap without apologizing for it
+- Immediately redirects to 20 years of production evidence
+- Shows confidence - not being rattled by the gap is itself a signal
+
+Minimal prep that actually helps:
+- Two to three weeks of medium-difficulty Leetcode: arrays, hashmaps, basic
+  graph traversal
+- Goal is not to master algorithms - it is to walk through a problem out loud
+  without freezing
+- Enough to be conversational, not enough to fake expertise you do not have
+
+The bigger picture:
+You are 46 years old with two acquisitions, systems processing billions of
+records daily, and references from AWS engineers and the co-founder of DevOps
+Days. Companies that screen purely on CS fundamentals are probably not the
+right fit. The ones worth your time hire for judgment, ownership, and the
+ability to build things that matter - and that is where your record is
+unambiguous.
+
+================================================================================
