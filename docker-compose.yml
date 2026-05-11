@@ -1,0 +1,26 @@
+services:
+  iambrianwilliams-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: iambrianwilliams-site
+    restart: unless-stopped
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./resume.html:/usr/share/nginx/html/resume.html:ro
+      - ./images:/usr/share/nginx/html/images:ro
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.iambrianwilliams-http.rule=Host(`www.iambrianwilliams.test`)
+      - traefik.http.routers.iambrianwilliams-http.entrypoints=web
+      - traefik.http.routers.iambrianwilliams-https.rule=Host(`www.iambrianwilliams.test`)
+      - traefik.http.routers.iambrianwilliams-https.entrypoints=websecure
+      - traefik.http.routers.iambrianwilliams-https.tls=true
+      - traefik.http.services.iambrianwilliams.loadbalancer.server.port=80
+    networks:
+      - dev_proxy
+
+networks:
+  dev_proxy:
+    external: true
+    name: dev_proxy
