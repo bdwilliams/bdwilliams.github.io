@@ -150,15 +150,135 @@
           white-space: normal;
         }
       }
+      @page {
+        size: letter;
+        margin: 0.45in;
+      }
       @media print {
+        *,
+        *::before,
+        *::after {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
         body {
-          font-size: 11pt;
+          font-size: 10pt;
+          line-height: 1.35;
+          color: #111827;
+        }
+        a {
+          color: #111827;
+          text-decoration: none;
         }
         .no-print {
-          display: none;
+          display: none !important;
+        }
+        .max-w-4xl {
+          max-width: none !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+        header {
+          margin-bottom: 0.75rem !important;
+        }
+        header h1 {
+          font-size: 1.35rem !important;
+          margin-bottom: 0.15rem !important;
+        }
+        header .text-gray-600 {
+          font-size: 9pt !important;
+          margin-bottom: 0 !important;
+          line-height: 1.3;
         }
         .section {
+          margin-bottom: 0.85rem !important;
+          break-inside: auto;
+          page-break-inside: auto;
+        }
+        .section-title {
+          font-size: 11pt !important;
+          margin-bottom: 0.35rem !important;
+          padding-bottom: 0.2rem !important;
+          break-after: avoid;
+          page-break-after: avoid;
+        }
+        .job-item,
+        .award-item,
+        .reference-item {
+          margin-bottom: 0.65rem !important;
+          break-inside: avoid;
           page-break-inside: avoid;
+        }
+        .job-header {
+          break-inside: avoid;
+          page-break-inside: avoid;
+          break-after: avoid;
+          page-break-after: avoid;
+        }
+        .job-title {
+          font-size: 10pt !important;
+        }
+        .job-company,
+        .job-date {
+          font-size: 9pt !important;
+        }
+        .job-description {
+          font-size: 9pt !important;
+          margin-top: 0.25rem !important;
+        }
+        .job-description > p {
+          margin-bottom: 0.25rem !important;
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+        .job-description ul {
+          margin-top: 0.15rem !important;
+          padding-left: 1.1rem !important;
+          break-inside: auto;
+          page-break-inside: auto;
+        }
+        li {
+          font-size: 9pt !important;
+          margin-bottom: 0.1rem !important;
+          break-inside: avoid;
+          page-break-inside: avoid;
+          orphans: 2;
+          widows: 2;
+        }
+        .section p {
+          margin-bottom: 0.35rem !important;
+          font-size: 9pt !important;
+          break-inside: avoid;
+          page-break-inside: avoid;
+          orphans: 3;
+          widows: 3;
+        }
+        blockquote {
+          margin: 0 !important;
+          padding-left: 0.5rem !important;
+          font-size: 8.5pt !important;
+          line-height: 1.3 !important;
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+        .grid {
+          display: grid !important;
+          grid-template-columns: repeat(4, 1fr) !important;
+          gap: 0.5rem !important;
+        }
+        .grid > div {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+        .grid h3 {
+          font-size: 9pt !important;
+          margin-bottom: 0.15rem !important;
+        }
+        .grid ul {
+          padding-left: 0.9rem !important;
+        }
+        .grid li {
+          font-size: 8.5pt !important;
         }
       }
     </style>
